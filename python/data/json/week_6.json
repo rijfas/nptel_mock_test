@@ -1,0 +1,112 @@
+[
+     {
+          "text": "Statement 1: The jurisdiction of Copyright Act extends to the whole of India.\n \n  Statement 2: The term of copyright is life of author + 50 years as per the Indian Copyright Act. ",
+          "type": "MULTIPLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Statement 1: Producer is the author of a cinematograph film.\n \n  Statement 2: Composer is the author of a musical work.",
+          "type": "MULTIPLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Which of the following actions fall leads to infringement?",
+          "type": "MULTIPLE",
+          "options": [
+               "Reproduction as pirate copy",
+               "Research",
+               "Reproduction by substantial copying",
+               "Review"
+          ],
+          "answers": []
+     },
+     {
+          "text": "For which of the following work \u2018Originality\u2019 condition is not required?",
+          "type": "MULTIPLE",
+          "options": [
+               "Literary Work",
+               "Artistic Work",
+               "Cinematograph film",
+               "Dramatic work"
+          ],
+          "answers": []
+     },
+     {
+          "text": "As per the Berne Convention, the term on copyright protection was?",
+          "type": "MULTIPLE",
+          "options": [
+               "Life of the author + 14 years",
+               "Life of the author + 44 years",
+               "Life of the author + 65 years",
+               "Life of the author + 50 years"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Which international agreement introduced the concept of neighbouring rights?",
+          "type": "MULTIPLE",
+          "options": [
+               "Rome Convention, 1961",
+               "Paris Convention, 1883",
+               "Berne Convention, 1886",
+               "Madrid Agreement, 1891"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Which of the following cannot be protected by copyright?",
+          "type": "MULTIPLE",
+          "options": [
+               "Book",
+               "Song",
+               "Slogan",
+               "Photograph"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Which of the following is a neighbouring right?",
+          "type": "MULTIPLE",
+          "options": [
+               "Translation rights",
+               "Broadcasting rights",
+               "Performers rights",
+               "Phonogram producer\u2019s rights"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Which of the following is way to transfer ownership of copyright?",
+          "type": "MULTIPLE",
+          "options": [
+               "Commission of Work",
+               "Licensing the work",
+               "Translation of Work",
+               "Through a Will"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Which of the following cases relates to photocopying of course packs?",
+          "type": "MULTIPLE",
+          "options": [
+               "R G Anand case",
+               "JNU Photocopy case",
+               "NLU Photocopy case",
+               "DU Photocopy case"
+          ],
+          "answers": []
+     }
+]

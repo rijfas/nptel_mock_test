@@ -1,0 +1,57 @@
+[
+     {
+          "text": "Statement 1: Certain IP rights are time bound and hence are known as limited life IP rights.\nStatement 2: Copyright is a limited life IP right.",
+          "type": "MULTIPLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Which of the following rights need to be registered to be enforced?",
+          "type": "MULTIPLE",
+          "options": [
+               "Copyright",
+               "Patent",
+               "Design",
+               "Confidential Information"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Which of the following assets is NOT an intangible asset?",
+          "type": "MULTIPLE",
+          "options": [
+               "Brand name",
+               "Goodwill",
+               "Inventory",
+               "Patent"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Which of the following are examples of a geographical indication?\t",
+          "type": "MULTIPLE",
+          "options": [
+               "Awesome Tea",
+               "Mysore Silk",
+               "Cold Coffee",
+               "Kashmiri Pashmina"
+          ],
+          "answers": []
+     },
+     {
+          "text": "As per the Indian Patent Act, an invention relating to atomic energy\u2014",
+          "type": "MULTIPLE",
+          "options": [
+               "Can be granted a patent for 20 years",
+               "Cannot be granted a patent.",
+               "Can be granted a patent for 5 years",
+               "Can be granted a patent for 7 years"
+          ],
+          "answers": []
+     }
+]

@@ -1,0 +1,112 @@
+[
+     {
+          "text": "Statement 1: Infringement can be classified as primary and secondary infringement. \n \n  Statement 2: The term \u2018infringement\u2019 is defined under the Indian Patent Act, 1970.",
+          "type": "MULTIPLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Statement 1: A compulsory license can be granted for both patent and trademark. \n \n  Statement 2: Only a High Court has the right to entertain a trademark infringement suit.",
+          "type": "MULTIPLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Statement 1: Free riders can be prevented from causing harm by protecting IP. \n \n  Statement 2: Your IP right can be enforced if someone seeks to obtain a right that belongs to you.",
+          "type": "MULTIPLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Which of the following are remedies available for infringement?  ",
+          "type": "MULTIPLE",
+          "options": [
+               "Civil",
+               "Criminal",
+               "Administrative",
+               "All of the above"
+          ],
+          "answers": []
+     },
+     {
+          "text": "In which of the following patent cases, a compulsory license was issued in India?",
+          "type": "MULTIPLE",
+          "options": [
+               "Nexavar Case",
+               "Middleton Case",
+               "Jasper Case",
+               "Novartis Case"
+          ],
+          "answers": []
+     },
+     {
+          "text": "WIPO Internet Domain Name Dispute Resolution was adopted by",
+          "type": "MULTIPLE",
+          "options": [
+               "WIPO",
+               "WTO",
+               "ICANN",
+               "UCANN"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Which remedy restrains the defendant from disposing of the assets which may be used to satisfy plaintiff\u2019s claim?",
+          "type": "MULTIPLE",
+          "options": [
+               "Mareva Injunction",
+               "Anton Piller Order",
+               "John Doe Order",
+               "Permanent Injunction"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Which court has the jurisdiction to entertain a patent infringement suit?",
+          "type": "MULTIPLE",
+          "options": [
+               "District Court",
+               "High Court",
+               "Supreme Court",
+               "Intellectual Property Appellate Board"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Which of the following are methods of alternative dispute resolution?",
+          "type": "MULTIPLE",
+          "options": [
+               "Arbitration",
+               "Expert Determination",
+               "Meeting",
+               "Mediation"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Which of the following are measures for enforcing IP?\t",
+          "type": "MULTIPLE",
+          "options": [
+               "Fair Dealing",
+               "Civil and Criminal Actions",
+               "Border Measures",
+               "Cease and Desist Notice"
+          ],
+          "answers": []
+     }
+]

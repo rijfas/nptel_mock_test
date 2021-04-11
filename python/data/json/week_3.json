@@ -1,0 +1,112 @@
+[
+     {
+          "text": "Statement 1: Patent is an exclusive monopoly right conferred by the government.\n\n \n   Statement 2: A patent is granted for a period of 10 years.",
+          "type": "MULTIPLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Statement 1.  Arogyapacha, a traditional medicine which gives strength is an excluded patentable invention as per Section 3 of the Patents Act, 1970.\n \n   Statement 2: A play-cum-educational device which comprises of a chart, a set of tokens for players and one or more dice is a patentable subject matter.",
+          "type": "MULTIPLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": []
+     },
+     {
+          "text": "In order to be granted a patent, an invention must satisfy which of the following conditions? ",
+          "type": "MULTIPLE",
+          "options": [
+               "Inventive Step",
+               "Novelty",
+               "Industrial Applicability",
+               "Expression of an idea"
+          ],
+          "answers": []
+     },
+     {
+          "text": "What of the following rights do not need a registration to be enforced?",
+          "type": "MULTIPLE",
+          "options": [
+               "Trademarks",
+               "Copyright",
+               "Geographical Indication",
+               "Trade Secret"
+          ],
+          "answers": []
+     },
+     {
+          "text": "The patent owner shall enjoy the monopoly right for his/her invention for a maximum period of",
+          "type": "MULTIPLE",
+          "options": [
+               "Initially granted for 10 years then can be renewed",
+               "12 years from the date of filing of the application",
+               "Life of the inventor plus 20 years",
+               "20 years from the date of filing of the application"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Who among the following can apply for a patent?",
+          "type": "MULTIPLE",
+          "options": [
+               "True and first inventor",
+               "Assignee of the true and first inventor",
+               "Legal representative of the true and first inventor",
+               "Legal representative of any deceased person"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Which of the following inventions can be patented as per Section 3 of the Patents Act, 1970?",
+          "type": "MULTIPLE",
+          "options": [
+               "A device used for executing human beings",
+               "A perpetual motion machine",
+               "A live human made micro-organism",
+               "Isomers and salts of an earlier patented drug"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Which of these are types of a patent application that can be filed under the Indian Patent Act?",
+          "type": "MULTIPLE",
+          "options": [
+               "PCT National Phase Application",
+               "Conventional Application",
+               "Divisional Application",
+               "Patents of Addition"
+          ],
+          "answers": []
+     },
+     {
+          "text": "A complete specification for a patent has to be filed within _______",
+          "type": "MULTIPLE",
+          "options": [
+               "12 months",
+               "18 months",
+               "24 months",
+               "36 months"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Invention relating to atomic energy ________",
+          "type": "MULTIPLE",
+          "options": [
+               "Can be granted a patent",
+               "Are not patentable according to section 4",
+               "Can be granted a patent for 5 years",
+               "Can be granted a patent for 7 years"
+          ],
+          "answers": []
+     }
+]

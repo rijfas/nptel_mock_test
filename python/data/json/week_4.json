@@ -1,0 +1,112 @@
+[
+     {
+          "text": "Statement 1: An application for compulsory license under Section 84 can be made at any time after the grant of the patent.\n \n  Statement 2:\n \nAn application for compulsory license under Section 84 can be made by any interested person. ",
+          "type": "MULTIPLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Statement 1: The patent application shall be ordinarily open to the public after a period of 18 months from the date of filing the application\n\n \n  Statement 2: The applicant shall be entitled to file a suit for infringement after the publication of the patent application  ",
+          "type": "MULTIPLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": []
+     },
+     {
+          "text": "How many types of compulsory licenses are provided for under the Indian patent Act-",
+          "type": "MULTIPLE",
+          "options": [
+               "1",
+               "2",
+               "3",
+               "4"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Product patent was introduced in India in the year- ",
+          "type": "MULTIPLE",
+          "options": [
+               "1996",
+               "2002",
+               "2005",
+               "2017"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Compulsory License for export under Indian Patents Act is for--  ",
+          "type": "MULTIPLE",
+          "options": [
+               "Pharmaceutical Products",
+               "Diagnostic kits required for their use",
+               "Medicinal Plants",
+               "Clinical Trial Data"
+          ],
+          "answers": []
+     },
+     {
+          "text": "India follows which of the following rules in relation to patent rights?",
+          "type": "MULTIPLE",
+          "options": [
+               "National exhaustion",
+               "Product Exhaustion",
+               "International exhaustion",
+               "First to file exhaustion"
+          ],
+          "answers": []
+     },
+     {
+          "text": "The appropriate court for initiating a suit for patent infringement is-",
+          "type": "MULTIPLE",
+          "options": [
+               "District Court",
+               "High Court",
+               "Supreme Court",
+               "Intellectual Property Appellate Board"
+          ],
+          "answers": []
+     },
+     {
+          "text": "Post grant opposition can be filed by\u2014",
+          "type": "MULTIPLE",
+          "options": [
+               "Only by the Central government in public interest",
+               "Any person interested",
+               "Concerned State Government",
+               "Only Competitor"
+          ],
+          "answers": []
+     },
+     {
+          "text": "The publication of an application shall be available",
+          "type": "MULTIPLE",
+          "options": [
+               "Official Journal of the Patent office",
+               "Official Gazette of the Government of India",
+               "Website of the Press Information Bureau",
+               "National Newspapers on every Tuesday"
+          ],
+          "answers": []
+     },
+     {
+          "text": "As per section 100, Central government can use the invention for the purpose of the government in cases of: ",
+          "type": "MULTIPLE",
+          "options": [
+               "National emergency",
+               "Extreme urgency",
+               "Public non commercial use",
+               "Bi-lateral treaty with another country"
+          ],
+          "answers": []
+     }
+]
