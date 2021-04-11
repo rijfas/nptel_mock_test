@@ -1,6 +1,6 @@
 [
      {
-          "text": "Statement 1: Creative industries are sectors that focus substantially on creating and exploiting IP products.\nStatement 2: Piracy negatively affects the livelihood of persons working in the industry.\u00a0",
+          "text": "\n\nWhich of the following options are correct?\n\n\nStatement 1:\n Intellectual property is\n                                  different from real property.\n\n\nStatement 2:\n Intellectual property may\n                                  include critical business information.\u00a0\n\n",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -13,7 +13,7 @@
           ]
      },
      {
-          "text": "Statement 1: National IPR Policy lays the future roadmap for IPRs in India.\u00a0\nStatement 2: One of the objectives of National IPR Policy is to register copyrights.",
+          "text": "\n\nWhich of the following options are correct?\n\n\nStatement 1:\n An intellectual effort is\n                                  something which is exclusive to human beings\u00a0\n\n\nStatement 2:\n A monkey clicking a picture on\n                                  a camera is an intellectual effort\n\n",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -26,7 +26,20 @@
           ]
      },
      {
-          "text": "Statement 1: CIPAM conducts training programs to discourage innovation.\u00a0\nStatement 2: CIPAM stands for Cell for IPR Awareness and Management.\u00a0",
+          "text": "Which one of the following cannot be protected by Intellectual\n                                Property Rights?",
+          "type": "MULTIPLE",
+          "options": [
+               "A code for developing MS Office",
+               "A. R Rahman\u00e2\u20ac\u2122s new composition of a Bollywood song",
+               "An agricultural land",
+               "An invention for improvement in an existing technology"
+          ],
+          "answers": [
+               "An agricultural land"
+          ]
+     },
+     {
+          "text": "\n\nWhich of the following options are correct?\n\n\nStatement 1: \nInfringement means assignment\n                                  of an intellectual property right.\u00a0\n\n\nStatement 2:\n Intellectual property is\n                                  different from intellectual property right\n\n",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -39,101 +52,83 @@
           ]
      },
      {
-          "text": "Which of the following are challenges in IP education?",
+          "text": "Property can be classified as-",
           "type": "SINGLE",
           "options": [
-               "Teaching with case studies",
-               "Speacialised course at university level",
-               "Producing more and better qualified IP professional",
-               "Need for an IP conscious workforce"
+               "Public property",
+               "Private property",
+               "Common property",
+               "Domain property"
           ],
           "answers": [
-               "Producing more and better qualified IP professional",
-               "Need for an IP conscious workforce"
+               "Public property",
+               "Private property"
           ]
      },
      {
-          "text": "The IPR Chairs are established under which scheme?",
+          "text": "\n\nWhich of the following options are correct?\n\n\nStatement 1: \nRights can only be used in the\n                                  sense of a licence.\u00a0\n\n\nStatement 2:\n Discoveries are not regarded\n                                  as inventions.\n\n",
           "type": "MULTIPLE",
           "options": [
-               "TRIPS",
-               "SPRIHA",
-               "National IPR Policy",
-               "SIPB"
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
           ],
           "answers": [
-               "SPRIHA"
+               "Statement 1 is false, 2 is true"
           ]
      },
      {
-          "text": "IP as a subject matter falls under which list of the Constitution?",
+          "text": "Intellectual Property is mostly a type of\u00e2\u20ac\u201d",
           "type": "MULTIPLE",
           "options": [
-               "Union List",
-               "State List",
-               "Concurrent List",
-               "Residuary List"
+               "Tangible property",
+               "Real Property",
+               "Intangible Property",
+               "None of the above"
           ],
           "answers": [
-               "Union List"
+               "Intangible Property"
           ]
      },
      {
-          "text": "Which of the following cases relates to digital rights management?",
+          "text": "What is the duration of copyright protection Paul can seek in\n                                India for his new non-fiction book?",
           "type": "MULTIPLE",
           "options": [
-               "R G Anand case",
-               "D U Photocopy case",
-               "Novartis case",
-               "Napster case"
+               "Non-fiction works cannot be protected",
+               "Only during the lifetime of Paul",
+               "Lifetime of Paul plus a period of 60 years after his death",
+               "Paul or his legal heirs can seek copyright protection in his work for perpetuity"
           ],
           "answers": [
-               "Napster case"
+               "Lifetime of Paul plus a period of 60 years after his death"
           ]
      },
      {
-          "text": "Major forms of piracy in India are?",
-          "type": "SINGLE",
+          "text": "TRIPS stands for-",
+          "type": "MULTIPLE",
           "options": [
-               "Home video market",
-               "Cable piracy",
-               "Unauthorised communication of movies in public places",
-               "Digital Rights Management"
+               "Trip Related Aspects of Intellectual Property Routes",
+               "Trade Related Aspects of Intellectual Property Rights",
+               "Trade Related Aspects of Internal Property Rights",
+               "Trip Related Aspects of Intellectual Property Roles",
+               "Trade Related Aspects of Intellectual Property Routes"
           ],
           "answers": [
-               "Home video market",
-               "Cable piracy",
-               "Unauthorised communication of movies in public places"
+               "Trade Related Aspects of Intellectual Property Rights"
           ]
      },
      {
-          "text": "Which of the following are examples of creative sectors?  ",
-          "type": "SINGLE",
+          "text": "Which of the following IP rights can be renewed each and every\n                                time after the end of their term in India?",
+          "type": "MULTIPLE",
           "options": [
-               "Advertising",
-               "Sports",
-               "Music",
-               "Films"
+               "Patents",
+               "Trade Marks",
+               "Copyrights",
+               "Designs"
           ],
           "answers": [
-               "Advertising",
-               "Sports",
-               "Music",
-               "Films"
-          ]
-     },
-     {
-          "text": "Which of the following are objectives of SPRIHA?",
-          "type": "SINGLE",
-          "options": [
-               "Develop credit/specialized courses on IP",
-               "Promote outreach of IP matters",
-               "Create training modules on patent drafting.",
-               "Assist in certifying patent agents"
-          ],
-          "answers": [
-               "Develop credit/specialized courses on IP",
-               "Promote outreach of IP matters"
+               "Trade Marks"
           ]
      }
 ]

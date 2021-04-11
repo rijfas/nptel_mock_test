@@ -8,7 +8,9 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 is false, 2 is true"
+          ]
      },
      {
           "text": "Statement 1: IP can be considered a tool to harness new technology\nStatement 2: Universities are one of the means to dissemination of technology for wider distribution.",
@@ -19,10 +21,12 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 and 2 both are true"
+          ]
      },
      {
-          "text": "Statement 1: Publication kills novelty. \nStatement 2: 18 months is the maximum period within which a complete specification should be filed after filing of provisional specification for a patent.",
+          "text": "Statement 1: Publication kills novelty.\u00a0\nStatement 2: 18 months is the maximum period within which a complete specification should be filed after filing of provisional specification for a patent.",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -30,10 +34,12 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 is true, 2 is false"
+          ]
      },
      {
-          "text": "Statement 1: Access to learning materials is one of the yardsticks used by NIRF to come up with the ranking.\nStatement 2: NIRF stands for National Institute Ranking Framework. ",
+          "text": "Statement 1: Access to learning materials is one of the yardsticks used by NIRF to come up with the ranking.\nStatement 2: NIRF stands for National Institute Ranking Framework.\u00a0",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -41,7 +47,9 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 is false, 2 is true"
+          ]
      },
      {
           "text": "Yodlee Inc was founded by which of the following Professor?",
@@ -52,18 +60,25 @@
                "Cori Bargmann",
                "None of the above"
           ],
-          "answers": []
+          "answers": [
+               "Dr. P. Venkat Rangan"
+          ]
      },
      {
           "text": "Which of the following are functions of IPM cell?  ",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "Educating staff and students about IP",
                "Hiring/Appointing IP professionals",
                "Mediating between industry and the institute",
                "Promoting and encouraging IP generation."
           ],
-          "answers": []
+          "answers": [
+               "Educating staff and students about IP",
+               "Hiring/Appointing IP professionals",
+               "Mediating between industry and the institute",
+               "Promoting and encouraging IP generation."
+          ]
      },
      {
           "text": "Which agency assesses and accredits higher education institutions in India?",
@@ -74,18 +89,22 @@
                "GoI",
                "NAAC"
           ],
-          "answers": []
+          "answers": [
+               "NAAC"
+          ]
      },
      {
           "text": "Prof Rob Perneczky discovery could help in early detection of which disease?",
           "type": "MULTIPLE",
           "options": [
-               "Alzheimer\u2019s",
+               "Alzheimer\u00e2\u20ac\u2122s",
                "Leukaemia",
                "Brain Tumour",
                "Covid 19"
           ],
-          "answers": []
+          "answers": [
+               "Alzheimer\u00e2\u20ac\u2122s"
+          ]
      },
      {
           "text": "Madey v Duke University (2002) case relates to?",
@@ -96,17 +115,24 @@
                "John Doe Order",
                "None of the above"
           ],
-          "answers": []
+          "answers": [
+               "University patent fights"
+          ]
      },
      {
           "text": "Which of the following are measures to prevent exploitation of publication?",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "Filing a provisional before disclosure",
                "Limit disclosure to what technology can do.",
                "Non-Disclosure Agreements",
                "Approach the TTO cell before disclosure."
           ],
-          "answers": []
+          "answers": [
+               "Filing a provisional before disclosure",
+               "Limit disclosure to what technology can do.",
+               "Non-Disclosure Agreements",
+               "Approach the TTO cell before disclosure."
+          ]
      }
 ]

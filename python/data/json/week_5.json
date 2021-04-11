@@ -1,6 +1,6 @@
 [
      {
-          "text": "Statement 1: A trade mark confers exclusive rights to use the mark.\n \n  Statement 2: The term of a trade mark is 15 years. ",
+          "text": "\n\nStatement 1: A trade mark confers exclusive rights to use the\n                                  mark.\n\n\n \n\u00a0 Statement 2: The\n                                  term of a trade mark is 15 years.\u00a0\n\n",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -8,10 +8,12 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 is true, 2 is false"
+          ]
      },
      {
-          "text": "Statement 1: Sounds and colours can be registered as a trade mark.\n \n  Statement 2: A shape mark can also be a trade mark",
+          "text": "\n\nStatement 1: Sounds and colours can be registered as a trade mark.\n\n\n \n\u00a0 Statement 2: A shape mark can also be\n                                  a trade mark\n\n",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -19,7 +21,9 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 and 2 both are true"
+          ]
      },
      {
           "text": "Which of the following is not a defence to infringement?",
@@ -30,10 +34,12 @@
                "Comparative Advertisement",
                "Disparaging Advertisement"
           ],
-          "answers": []
+          "answers": [
+               "Disparaging Advertisement"
+          ]
      },
      {
-          "text": "Which of the following leads to loosing protection of a trade mark?",
+          "text": "Which of the following leads to loosing protection of a trade\n                                mark?",
           "type": "MULTIPLE",
           "options": [
                "Assignment",
@@ -41,10 +47,12 @@
                "Non-registration",
                "Non-usage"
           ],
-          "answers": []
+          "answers": [
+               "Non-usage"
+          ]
      },
      {
-          "text": "The trade mark is registered and can be renewed every time for a period of",
+          "text": "The trade mark is registered and can be renewed every time for a\n                                period of",
           "type": "MULTIPLE",
           "options": [
                "5 years",
@@ -52,61 +60,82 @@
                "15 years",
                "20 years"
           ],
-          "answers": []
+          "answers": [
+               "10 years"
+          ]
      },
      {
-          "text": "Which of the following are absolute grounds for refusal of registration?",
-          "type": "MULTIPLE",
+          "text": "Which of the following are absolute grounds for refusal of\n                                registration?",
+          "type": "SINGLE",
           "options": [
                "Customary marks",
                "Marks containing obscene or scandalous matter",
                "Marks identical/similar to earlier trademark",
                "Marks causing confusion"
           ],
-          "answers": []
+          "answers": [
+               "Customary marks",
+               "Marks containing obscene or scandalous matter",
+               "Marks causing confusion"
+          ]
      },
      {
           "text": "A mark includes",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "Name",
                "Device",
                "Label",
                "Signature"
           ],
-          "answers": []
+          "answers": [
+               "Name",
+               "Device",
+               "Label",
+               "Signature"
+          ]
      },
      {
           "text": "Which of the following are conditions of passing off? ",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "The trademark is registered",
                "The claimant has goodwill",
                "The defendant has goodwill",
                "The defendant made a representation that is likely to deceive the public"
           ],
-          "answers": []
+          "answers": [
+               "The claimant has goodwill",
+               "The defendant made a representation that is likely to deceive the public"
+          ]
      },
      {
-          "text": "Which of the following leads to infringement of a trademark?",
-          "type": "MULTIPLE",
+          "text": "Which of the following leads to infringement of a trademark?\n                              ",
+          "type": "SINGLE",
           "options": [
                "Identity with registered mark and similarity",
                "Comparative advertisement",
                "Unauthorised use of trademark on packaging",
                "Voluntarily licensing use of a trademark"
           ],
-          "answers": []
+          "answers": [
+               "Identity with registered mark and similarity",
+               "Unauthorised use of trademark on packaging"
+          ]
      },
      {
-          "text": "Which of the following international agreements relate to trademarks?",
-          "type": "MULTIPLE",
+          "text": "Which of the following international agreements relate to\n                                trademarks?",
+          "type": "SINGLE",
           "options": [
                "Paris Convention, 1883",
                "Berne Convention, 1886",
                "Madrid Agreement, 1891",
                "TRIPS Agreement, 1995"
           ],
-          "answers": []
+          "answers": [
+               "Paris Convention, 1883",
+               "Madrid Agreement, 1891",
+               "TRIPS Agreement, 1995"
+          ]
      }
 ]

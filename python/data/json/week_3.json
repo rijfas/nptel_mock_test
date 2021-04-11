@@ -1,6 +1,6 @@
 [
      {
-          "text": "Statement 1: Patent is an exclusive monopoly right conferred by the government.\n\n \n   Statement 2: A patent is granted for a period of 10 years.",
+          "text": "Statement 1: Patent is an exclusive monopoly right conferred by\n                                the government.\n                                \n \n\u00a0 \u00a0Statement 2: A patent is granted\n                                for a period of 10 years.",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -8,10 +8,12 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 is true, 2 is false"
+          ]
      },
      {
-          "text": "Statement 1.  Arogyapacha, a traditional medicine which gives strength is an excluded patentable invention as per Section 3 of the Patents Act, 1970.\n \n   Statement 2: A play-cum-educational device which comprises of a chart, a set of tokens for players and one or more dice is a patentable subject matter.",
+          "text": "\n\nStatement 1.\u00a0 Arogyapacha, a traditional medicine which gives strength is an\n                                  excluded patentable invention as per Section 3 of the Patents Act, 1970.\n\n\n \n\u00a0 \u00a0Statement 2: A\n                                  play-cum-educational device which comprises of a chart, a set of tokens for players\n                                  and one or more dice is a patentable subject matter.\n\n",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -19,32 +21,41 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 is true, 2 is false"
+          ]
      },
      {
-          "text": "In order to be granted a patent, an invention must satisfy which of the following conditions? ",
-          "type": "MULTIPLE",
+          "text": "In order to be granted a patent, an invention must satisfy which\n                                of the following conditions? ",
+          "type": "SINGLE",
           "options": [
                "Inventive Step",
                "Novelty",
                "Industrial Applicability",
                "Expression of an idea"
           ],
-          "answers": []
+          "answers": [
+               "Inventive Step",
+               "Novelty",
+               "Industrial Applicability"
+          ]
      },
      {
-          "text": "What of the following rights do not need a registration to be enforced?",
-          "type": "MULTIPLE",
+          "text": "What of the following rights do not need a registration to be\n                                enforced?",
+          "type": "SINGLE",
           "options": [
                "Trademarks",
                "Copyright",
                "Geographical Indication",
                "Trade Secret"
           ],
-          "answers": []
+          "answers": [
+               "Copyright",
+               "Trade Secret"
+          ]
      },
      {
-          "text": "The patent owner shall enjoy the monopoly right for his/her invention for a maximum period of",
+          "text": "The patent owner shall enjoy the monopoly right for his/her\n                                invention for a maximum period of",
           "type": "MULTIPLE",
           "options": [
                "Initially granted for 10 years then can be renewed",
@@ -52,21 +63,27 @@
                "Life of the inventor plus 20 years",
                "20 years from the date of filing of the application"
           ],
-          "answers": []
+          "answers": [
+               "20 years from the date of filing of the application"
+          ]
      },
      {
           "text": "Who among the following can apply for a patent?",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "True and first inventor",
                "Assignee of the true and first inventor",
                "Legal representative of the true and first inventor",
                "Legal representative of any deceased person"
           ],
-          "answers": []
+          "answers": [
+               "True and first inventor",
+               "Assignee of the true and first inventor",
+               "Legal representative of any deceased person"
+          ]
      },
      {
-          "text": "Which of the following inventions can be patented as per Section 3 of the Patents Act, 1970?",
+          "text": "Which of the following inventions can be patented as per Section\n                                3 of the Patents Act, 1970?",
           "type": "MULTIPLE",
           "options": [
                "A device used for executing human beings",
@@ -74,21 +91,28 @@
                "A live human made micro-organism",
                "Isomers and salts of an earlier patented drug"
           ],
-          "answers": []
+          "answers": [
+               "A live human made micro-organism"
+          ]
      },
      {
-          "text": "Which of these are types of a patent application that can be filed under the Indian Patent Act?",
-          "type": "MULTIPLE",
+          "text": "Which of these are types of a patent application that can be\n                                filed under the Indian Patent Act?",
+          "type": "SINGLE",
           "options": [
                "PCT National Phase Application",
                "Conventional Application",
                "Divisional Application",
                "Patents of Addition"
           ],
-          "answers": []
+          "answers": [
+               "PCT National Phase Application",
+               "Conventional Application",
+               "Divisional Application",
+               "Patents of Addition"
+          ]
      },
      {
-          "text": "A complete specification for a patent has to be filed within _______",
+          "text": "A complete specification for a patent has to be filed within\n                                _______",
           "type": "MULTIPLE",
           "options": [
                "12 months",
@@ -96,7 +120,9 @@
                "24 months",
                "36 months"
           ],
-          "answers": []
+          "answers": [
+               "12 months"
+          ]
      },
      {
           "text": "Invention relating to atomic energy ________",
@@ -107,6 +133,8 @@
                "Can be granted a patent for 5 years",
                "Can be granted a patent for 7 years"
           ],
-          "answers": []
+          "answers": [
+               "Are not patentable according to section 4"
+          ]
      }
 ]

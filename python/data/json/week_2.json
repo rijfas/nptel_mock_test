@@ -1,6 +1,6 @@
 [
      {
-          "text": "Which of the following options are correct?\n\nStatement 1:\n Investment refers to a resource spent to create enduring productive services.\n\nStatement 2:\n Capital refers to a fixed asset that creates the above mentioned productive services. ",
+          "text": "Which of the following options are correct?\n                                \nStatement 1:\n Investment refers to a\n                                resource spent to create enduring productive services.\n                                \nStatement 2:\n Capital refers to a fixed asset\n                                that creates the above mentioned productive services. ",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -8,7 +8,9 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 and 2 both are true"
+          ]
      },
      {
           "text": "SCP regime developed a license called the:",
@@ -20,10 +22,12 @@
                "Sole License",
                "Transferable License"
           ],
-          "answers": []
+          "answers": [
+               "Frand License"
+          ]
      },
      {
-          "text": "Which of the following cannot be considered as an aspect of investment?",
+          "text": "Which of the following cannot be considered as an aspect of\n                                investment?",
           "type": "MULTIPLE",
           "options": [
                "Cost",
@@ -31,10 +35,12 @@
                "Enjoyment of the return",
                "Marketing"
           ],
-          "answers": []
+          "answers": [
+               "Marketing"
+          ]
      },
      {
-          "text": "Which section of the Indian Patent Act prevents patents for new form of known substances?",
+          "text": "Which section of the Indian Patent Act prevents patents for new\n                                form of known substances?",
           "type": "MULTIPLE",
           "options": [
                "Section 12",
@@ -42,21 +48,27 @@
                "Section 3(d)",
                "Section 2"
           ],
-          "answers": []
+          "answers": [
+               "Section 3(d)"
+          ]
      },
      {
-          "text": "Which of the following are the grounds for rejecting Novartis patent?",
-          "type": "MULTIPLE",
+          "text": "Which of the following are the grounds for rejecting Novartis\n                                patent?",
+          "type": "SINGLE",
           "options": [
                "Anticipation",
                "Non-obviousness",
                "Utility",
                "Wrongful priority"
           ],
-          "answers": []
+          "answers": [
+               "Anticipation",
+               "Non-obviousness",
+               "Wrongful priority"
+          ]
      },
      {
-          "text": "Which of the following type of legal protection can be accorded to Windows 10 Operating System in India?",
+          "text": "Which of the following type of legal protection can be accorded\n                                to Windows 10 Operating System in India?",
           "type": "MULTIPLE",
           "options": [
                "Copyright",
@@ -64,29 +76,39 @@
                "Designs",
                "Geographical Indication"
           ],
-          "answers": []
+          "answers": [
+               "Copyright"
+          ]
      },
      {
           "text": "Which of the following assets is an intangible asset?",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "Brand name",
                "Goodwill",
                "Inventory",
                "Databases"
           ],
-          "answers": []
+          "answers": [
+               "Brand name",
+               "Goodwill",
+               "Databases"
+          ]
      },
      {
-          "text": "Which of the following activities can be considered as an intangible investment?",
-          "type": "MULTIPLE",
+          "text": "Which of the following activities can be considered as an\n                                intangible investment?",
+          "type": "SINGLE",
           "options": [
-               "Tesla\u2019s new technological idea of running cars from renewable resources",
-               "Apple\u2019s new product design for a foldable iPhone",
+               "Tesla\u00e2\u20ac\u2122s new technological idea of running cars from renewable resources",
+               "Apple\u00e2\u20ac\u2122s new product design for a foldable iPhone",
                "Land bought by Google to set up an office in Chennai",
-               "Facebook\u2019s codified information"
+               "Facebook\u00e2\u20ac\u2122s codified information"
           ],
-          "answers": []
+          "answers": [
+               "Tesla\u00e2\u20ac\u2122s new technological idea of running cars from renewable resources",
+               "Apple\u00e2\u20ac\u2122s new product design for a foldable iPhone",
+               "Facebook\u00e2\u20ac\u2122s codified information"
+          ]
      },
      {
           "text": "Which of the following assets is not an intangible asset?",
@@ -97,17 +119,22 @@
                "Inventory",
                "Patent"
           ],
-          "answers": []
+          "answers": [
+               "Inventory"
+          ]
      },
      {
-          "text": "Business have invested in things that provide long term value, but which do not have a physical presence. Which of the following things correctly represents this statement?",
-          "type": "MULTIPLE",
+          "text": "Business have invested in things that provide long term value,\n                                but which do not have a physical presence. Which of the following things correctly\n                                represents this statement?",
+          "type": "SINGLE",
           "options": [
                "Research and Development",
                "Branding",
                "Machines",
                "Buildings"
           ],
-          "answers": []
+          "answers": [
+               "Research and Development",
+               "Branding"
+          ]
      }
 ]

@@ -1,6 +1,6 @@
 [
      {
-          "text": "Statement 1: Competition law promotes competition and decreases consumer welfare.\nStatement 2: Intellectual property laws grants exclusivity for products that come out of creative labour.",
+          "text": "\n\nStatement 1: Competition law promotes competition and decreases consumer welfare.\n                                \n\n\nStatement 2: Intellectual property laws grants exclusivity for products that come\n                                  out of creative labour.\n\n",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -8,10 +8,12 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 is false, 2 is true"
+          ]
      },
      {
-          "text": "Statement 1: IP valuation leads to losses in investment. \nStatement 2: IP valuation is not relevant in determining royalties.",
+          "text": "\n\nStatement 1: IP valuation leads to losses in investment.\u00a0\n\n\nStatement 2: IP valuation is not relevant in determining royalties.\n\n",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -19,10 +21,12 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 and 2 both are false"
+          ]
      },
      {
-          "text": "Statement 1: Intellectual property laws grants monopolies.\nStatement 2: Intellectual property law does not incenstivise innovation.",
+          "text": "\n\nStatement 1: Intellectual property laws grants monopolies.\n\n\nStatement 2: Intellectual property law does not incenstivise innovation.\n\n",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -30,10 +34,12 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 is true, 2 is false"
+          ]
      },
      {
-          "text": "Statement 1: A sale extinguishes all rights of the IP holder. \nStatement 2: A license ensures that the licensor retains certain rights and only limited rights are transferred.",
+          "text": "\n\nStatement 1: A sale extinguishes all rights of the IP holder.\u00a0\n\n\nStatement 2: A license ensures that the licensor retains certain rights and only\n                                  limited rights are transferred.\n\n",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -41,7 +47,9 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 and 2 both are true"
+          ]
      },
      {
           "text": "Anti-competitive agreements are dealt under- ",
@@ -52,32 +60,41 @@
                "Competition Act",
                "Contract Act"
           ],
-          "answers": []
+          "answers": [
+               "Competition Act"
+          ]
      },
      {
           "text": "Which of the following are challenges in valuing IP? ",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "Level of subjectivity and assumptions",
                "Shortage of valuation experts",
                "Patent Pooling",
                "Lack of information to identify benchmarks"
           ],
-          "answers": []
+          "answers": [
+               "Level of subjectivity and assumptions",
+               "Shortage of valuation experts",
+               "Lack of information to identify benchmarks"
+          ]
      },
      {
-          "text": "Which of the following is NOT a limited life IP?  ",
-          "type": "MULTIPLE",
+          "text": "Which of the following is NOT a limited life IP? ",
+          "type": "SINGLE",
           "options": [
                "Copyright",
                "Trade Marks",
                "Patent",
                "Geographical Indication"
           ],
-          "answers": []
+          "answers": [
+               "Trade Marks",
+               "Geographical Indication"
+          ]
      },
      {
-          "text": "Which of the following cases relates to conversion of limited life IP to unlimited life IP? ",
+          "text": "Which of the following cases relates to conversion of limited\n                                life IP to unlimited life IP? ",
           "type": "MULTIPLE",
           "options": [
                "Novartis case",
@@ -85,10 +102,12 @@
                "Frozen case",
                "Louboutin Case"
           ],
-          "answers": []
+          "answers": [
+               "Pilkington Glass case"
+          ]
      },
      {
-          "text": "The Intellectual Property laws and Competition laws originated from-",
+          "text": "The Intellectual Property laws and Competition laws originated\n                                from-",
           "type": "MULTIPLE",
           "options": [
                "Statute of Monopolies (Patents)",
@@ -96,7 +115,9 @@
                "Statute of Commons",
                "Statute of Consumers"
           ],
-          "answers": []
+          "answers": [
+               "Statute of Monopolies (Patents)"
+          ]
      },
      {
           "text": "Competition Act in India was enacted in the year-",
@@ -107,6 +128,8 @@
                "2000",
                "2002"
           ],
-          "answers": []
+          "answers": [
+               "2002"
+          ]
      }
 ]

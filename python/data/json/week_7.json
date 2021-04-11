@@ -1,6 +1,6 @@
 [
      {
-          "text": "Statement 1: A geographical indication is a sign used on products that have a specific geographical origin and possess qualities or a reputation that\nare due to that origin.\n \n  Statement 2: A geographical indication is valid for 5 years and can be renewed from time to time.",
+          "text": "\n\nStatement 1: A geographical indication is a sign used on\n                                  products that have a specific geographical origin and possess qualities or a\n                                  reputation that\nare due to that origin.\n\n\n \n\u00a0 Statement 2: A\n                                  geographical indication is valid for 5 years and can be renewed from time to time.\n                                \n\n",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -8,10 +8,12 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 is true, 2 is false"
+          ]
      },
      {
-          "text": "Statement 1: A design protects the functional aspects of a product.\n \n  Statement 2: A patent protects the non-functional aspects of a product.",
+          "text": "\n\nStatement 1: A design protects the functional aspects of a\n                                  product.\n\n\n \n\u00a0 Statement 2: A\n                                  patent protects the non-functional aspects of a product.\n\n",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -19,10 +21,12 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 and 2 both are false"
+          ]
      },
      {
-          "text": "Which of the following cases relates to confidential information?\t",
+          "text": "Which of the following cases relates to confidential information?\n                              ",
           "type": "MULTIPLE",
           "options": [
                "Ola v Uber",
@@ -30,7 +34,9 @@
                "Ola v Google",
                "Ola v Meru"
           ],
-          "answers": []
+          "answers": [
+               "Waymo (Google) v Uber"
+          ]
      },
      {
           "text": "The term if design protection is -",
@@ -41,10 +47,12 @@
                "15 years",
                "20 years"
           ],
-          "answers": []
+          "answers": [
+               "10 years"
+          ]
      },
      {
-          "text": "A geographical indication is a\t",
+          "text": "A geographical indication is a ",
           "type": "MULTIPLE",
           "options": [
                "Private Right",
@@ -52,21 +60,27 @@
                "Community Right",
                "None of the above"
           ],
-          "answers": []
+          "answers": [
+               "Community Right"
+          ]
      },
      {
-          "text": "Which of the following are remedies to breach of confidential information?",
-          "type": "MULTIPLE",
+          "text": "Which of the following are remedies to breach of confidential\n                                information?",
+          "type": "SINGLE",
           "options": [
                "Permanent Injunction",
                "Interim Injunction",
                "Rigorous Imprisonment",
                "Damages"
           ],
-          "answers": []
+          "answers": [
+               "Permanent Injunction",
+               "Interim Injunction",
+               "Damages"
+          ]
      },
      {
-          "text": "The term NDA stands for?\t",
+          "text": "The term NDA stands for? ",
           "type": "MULTIPLE",
           "options": [
                "No Definition Agreement",
@@ -74,32 +88,41 @@
                "Not Disclosable Agreement",
                "Non-Discerning Agreement"
           ],
-          "answers": []
+          "answers": [
+               "Non-Disclosure Agreement"
+          ]
      },
      {
-          "text": "Which of the following IP right helps people in identifying the quality of a product?",
-          "type": "MULTIPLE",
+          "text": "Which of the following IP right helps people in identifying the\n                                quality of a product?",
+          "type": "SINGLE",
           "options": [
                "Geographical Indication",
                "Patent",
                "Copyright",
                "Trademarks"
           ],
-          "answers": []
+          "answers": [
+               "Geographical Indication",
+               "Trademarks"
+          ]
      },
      {
-          "text": "Which of the following are examples of a geographical indication?\t",
-          "type": "MULTIPLE",
+          "text": "Which of the following are examples of a geographical indication?\n                              ",
+          "type": "SINGLE",
           "options": [
                "Darjeeling Tea",
                "Banaras Saree",
                "Scotch Whisky",
                "Best Wine"
           ],
-          "answers": []
+          "answers": [
+               "Darjeeling Tea",
+               "Banaras Saree",
+               "Scotch Whisky"
+          ]
      },
      {
-          "text": "Confidential information is protected under which of the following branches of law?",
+          "text": "Confidential information is protected under which of the\n                                following branches of law?",
           "type": "MULTIPLE",
           "options": [
                "Law of Contracts",
@@ -107,6 +130,8 @@
                "Law of Breach of Confidence",
                "Law of Obligations"
           ],
-          "answers": []
+          "answers": [
+               "Law of Breach of Confidence"
+          ]
      }
 ]

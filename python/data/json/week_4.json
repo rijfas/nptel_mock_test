@@ -1,6 +1,6 @@
 [
      {
-          "text": "Statement 1: An application for compulsory license under Section 84 can be made at any time after the grant of the patent.\n \n  Statement 2:\n \nAn application for compulsory license under Section 84 can be made by any interested person. ",
+          "text": "\n\nStatement 1: An application for compulsory license under Section\n                                  84 can be made at any time after the grant of the patent.\n\n\n \n\u00a0 Statement 2:\n\n\nAn application for compulsory license under Section 84 can be made by any\n                                  interested person.\u00a0\n\n",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -8,10 +8,12 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 is false, 2 is true"
+          ]
      },
      {
-          "text": "Statement 1: The patent application shall be ordinarily open to the public after a period of 18 months from the date of filing the application\n\n \n  Statement 2: The applicant shall be entitled to file a suit for infringement after the publication of the patent application  ",
+          "text": "Statement 1: The patent application shall be ordinarily open to\n                                the public after a period of 18 months from the date of filing the application\n                                \n \n\u00a0 Statement 2: The applicant shall be\n                                entitled to file a suit for infringement after the publication of the patent application\n                              ",
           "type": "MULTIPLE",
           "options": [
                "Statement 1 is true, 2 is false",
@@ -19,10 +21,12 @@
                "Statement 1 and 2 both are false",
                "Statement 1 and 2 both are true"
           ],
-          "answers": []
+          "answers": [
+               "Statement 1 is true, 2 is false"
+          ]
      },
      {
-          "text": "How many types of compulsory licenses are provided for under the Indian patent Act-",
+          "text": "How many types of compulsory licenses are provided for under the\n                                Indian patent Act-",
           "type": "MULTIPLE",
           "options": [
                "1",
@@ -30,7 +34,9 @@
                "3",
                "4"
           ],
-          "answers": []
+          "answers": [
+               "4"
+          ]
      },
      {
           "text": "Product patent was introduced in India in the year- ",
@@ -41,10 +47,12 @@
                "2005",
                "2017"
           ],
-          "answers": []
+          "answers": [
+               "2005"
+          ]
      },
      {
-          "text": "Compulsory License for export under Indian Patents Act is for--  ",
+          "text": "Compulsory License for export under Indian Patents Act is for--\n                              ",
           "type": "MULTIPLE",
           "options": [
                "Pharmaceutical Products",
@@ -52,10 +60,12 @@
                "Medicinal Plants",
                "Clinical Trial Data"
           ],
-          "answers": []
+          "answers": [
+               "Pharmaceutical Products"
+          ]
      },
      {
-          "text": "India follows which of the following rules in relation to patent rights?",
+          "text": "India follows which of the following rules in relation to patent\n                                rights?",
           "type": "MULTIPLE",
           "options": [
                "National exhaustion",
@@ -63,21 +73,26 @@
                "International exhaustion",
                "First to file exhaustion"
           ],
-          "answers": []
+          "answers": [
+               "International exhaustion"
+          ]
      },
      {
-          "text": "The appropriate court for initiating a suit for patent infringement is-",
-          "type": "MULTIPLE",
+          "text": "The appropriate court for initiating a suit for patent\n                                infringement is-",
+          "type": "SINGLE",
           "options": [
                "District Court",
                "High Court",
                "Supreme Court",
                "Intellectual Property Appellate Board"
           ],
-          "answers": []
+          "answers": [
+               "District Court",
+               "High Court"
+          ]
      },
      {
-          "text": "Post grant opposition can be filed by\u2014",
+          "text": "Post grant opposition can be filed by\u00e2\u20ac\u201d",
           "type": "MULTIPLE",
           "options": [
                "Only by the Central government in public interest",
@@ -85,7 +100,9 @@
                "Concerned State Government",
                "Only Competitor"
           ],
-          "answers": []
+          "answers": [
+               "Any person interested"
+          ]
      },
      {
           "text": "The publication of an application shall be available",
@@ -96,17 +113,23 @@
                "Website of the Press Information Bureau",
                "National Newspapers on every Tuesday"
           ],
-          "answers": []
+          "answers": [
+               "Official Journal of the Patent office"
+          ]
      },
      {
-          "text": "As per section 100, Central government can use the invention for the purpose of the government in cases of: ",
-          "type": "MULTIPLE",
+          "text": "As per section 100, Central government can use the invention for\n                                the purpose of the government in cases of: ",
+          "type": "SINGLE",
           "options": [
                "National emergency",
                "Extreme urgency",
                "Public non commercial use",
                "Bi-lateral treaty with another country"
           ],
-          "answers": []
+          "answers": [
+               "National emergency",
+               "Extreme urgency",
+               "Public non commercial use"
+          ]
      }
 ]
