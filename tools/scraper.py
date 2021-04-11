@@ -3,11 +3,14 @@ from json import dumps
 from time import sleep
 from os import system, sep
 from sys import platform
+from re import sub
 
+# Change week according to course duration
+WEEKS = 12
 class Question:
     def __init__(self, question_text, options, answer):
         self.question_text = question_text
-        self.type = 'SINGLE' if len(answer) > 1 else 'MULTIPLE'
+        self.type = 'MULTIPLE' if len(answer) > 1 else 'SINGLE'
         self.options = options
         self.answer = answer
 
@@ -41,15 +44,15 @@ print(f'''
 ''')
 sleep(1)
 check_clear()
-for file_no in range(1,13):
-    print(f'file {file_no}/12 files')
+for file_no in range(1,WEEKS+1):
+    print(f'file {file_no}/{WEEKS} files')
     print(f'LOG: READING_FILE : data{sep}html{sep}week_{file_no}.html ')
     with open(f'data{sep}html{sep}week_{file_no}.html') as data:
         page = BeautifulSoup(data.read(), 'html.parser')
         questions = []
         for question in page.select('div.qt-mc-question'):
             for text in question.select('div.qt-question'):
-                questions.append(Question('\n'.join(list(text.strings)), [option.get_text().strip() for option in question.select('div.gcb-mcq-choice label')], [answer.get_text().strip() for answer in question.select('div.faculty-answer label')]))
+                questions.append(Question(sub('\s{2,}', ' ','\n'.join(list(text.strings))), [option.get_text().strip() for option in question.select('div.gcb-mcq-choice label')], [answer.get_text().strip() for answer in question.select('div.faculty-answer label')]))
 
     print(f'LOG: READING FILE data{sep}html{sep}week_{file_no}.html Done.√')
 

@@ -1,7 +1,7 @@
 [
      {
-          "text": "\n\nStatement 1: The jurisdiction of Copyright Act extends to the\n                                  whole of India.\n\n\n \n\u00a0 Statement 2: The\n                                  term of copyright is life of author + 50 years as per the Indian Copyright Act.\u00a0\n                                \n\n",
-          "type": "MULTIPLE",
+          "text": " Statement 1: The jurisdiction of Copyright Act extends to the whole of India. Statement 2: The term of copyright is life of author + 50 years as per the Indian Copyright Act. ",
+          "type": "SINGLE",
           "options": [
                "Statement 1 is true, 2 is false",
                "Statement 1 is false, 2 is true",
@@ -13,8 +13,8 @@
           ]
      },
      {
-          "text": "\n\nStatement 1: Producer is the author of a cinematograph film.\n                                \n\n\n \n\u00a0 Statement 2:\n                                  Composer is the author of a musical work.\n\n",
-          "type": "MULTIPLE",
+          "text": " Statement 1: Producer is the author of a cinematograph film. Statement 2: Composer is the author of a musical work. ",
+          "type": "SINGLE",
           "options": [
                "Statement 1 is true, 2 is false",
                "Statement 1 is false, 2 is true",
@@ -27,7 +27,7 @@
      },
      {
           "text": "Which of the following actions fall leads to infringement?",
-          "type": "SINGLE",
+          "type": "MULTIPLE",
           "options": [
                "Reproduction as pirate copy",
                "Research",
@@ -40,8 +40,8 @@
           ]
      },
      {
-          "text": "For which of the following work \u00e2\u20ac\u02dcOriginality\u00e2\u20ac\u2122 condition is not\n                                required?",
-          "type": "MULTIPLE",
+          "text": "For which of the following work \u2018Originality\u2019 condition is not required?",
+          "type": "SINGLE",
           "options": [
                "Literary Work",
                "Artistic Work",
@@ -53,8 +53,8 @@
           ]
      },
      {
-          "text": "As per the Berne Convention, the term on copyright protection\n                                was?",
-          "type": "MULTIPLE",
+          "text": "As per the Berne Convention, the term on copyright protection was?",
+          "type": "SINGLE",
           "options": [
                "Life of the author + 14 years",
                "Life of the author + 44 years",
@@ -66,8 +66,8 @@
           ]
      },
      {
-          "text": "Which international agreement introduced the concept of\n                                neighbouring rights?",
-          "type": "MULTIPLE",
+          "text": "Which international agreement introduced the concept of neighbouring rights?",
+          "type": "SINGLE",
           "options": [
                "Rome Convention, 1961",
                "Paris Convention, 1883",
@@ -80,7 +80,7 @@
      },
      {
           "text": "Which of the following cannot be protected by copyright?",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "Book",
                "Song",
@@ -93,22 +93,22 @@
      },
      {
           "text": "Which of the following is a neighbouring right?",
-          "type": "SINGLE",
+          "type": "MULTIPLE",
           "options": [
                "Translation rights",
                "Broadcasting rights",
                "Performers rights",
-               "Phonogram producer\u00e2\u20ac\u2122s rights"
+               "Phonogram producer\u2019s rights"
           ],
           "answers": [
                "Broadcasting rights",
                "Performers rights",
-               "Phonogram producer\u00e2\u20ac\u2122s rights"
+               "Phonogram producer\u2019s rights"
           ]
      },
      {
-          "text": "Which of the following is way to transfer ownership of copyright?\n                              ",
-          "type": "SINGLE",
+          "text": "Which of the following is way to transfer ownership of copyright? ",
+          "type": "MULTIPLE",
           "options": [
                "Commission of Work",
                "Licensing the work",
@@ -121,8 +121,8 @@
           ]
      },
      {
-          "text": "Which of the following cases relates to photocopying of course\n                                packs?",
-          "type": "MULTIPLE",
+          "text": "Which of the following cases relates to photocopying of course packs?",
+          "type": "SINGLE",
           "options": [
                "R G Anand case",
                "JNU Photocopy case",

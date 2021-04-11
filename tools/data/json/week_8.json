@@ -1,0 +1,137 @@
+[
+     {
+          "text": " Statement 1: Infringement can be classified as primary and secondary infringement. Statement 2: The term \u2018infringement\u2019 is defined under the Indian Patent Act, 1970. ",
+          "type": "SINGLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": [
+               "Statement 1 is true, 2 is false"
+          ]
+     },
+     {
+          "text": " Statement 1: A compulsory license can be granted for both patent and trademark. Statement 2: Only a High Court has the right to entertain a trademark infringement suit. ",
+          "type": "SINGLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": [
+               "Statement 1 and 2 both are false"
+          ]
+     },
+     {
+          "text": " Statement 1: Free riders can be prevented from causing harm by protecting IP. Statement 2: Your IP right can be enforced if someone seeks to obtain a right that belongs to you. ",
+          "type": "SINGLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": [
+               "Statement 1 and 2 both are true"
+          ]
+     },
+     {
+          "text": "Which of the following are remedies available for infringement? ",
+          "type": "SINGLE",
+          "options": [
+               "Civil",
+               "Criminal",
+               "Administrative",
+               "All of the above"
+          ],
+          "answers": [
+               "All of the above"
+          ]
+     },
+     {
+          "text": "In which of the following patent cases, a compulsory license was issued in India?",
+          "type": "SINGLE",
+          "options": [
+               "Nexavar Case",
+               "Middleton Case",
+               "Jasper Case",
+               "Novartis Case"
+          ],
+          "answers": [
+               "Nexavar Case"
+          ]
+     },
+     {
+          "text": "WIPO Internet Domain Name Dispute Resolution was adopted by",
+          "type": "SINGLE",
+          "options": [
+               "WIPO",
+               "WTO",
+               "ICANN",
+               "UCANN"
+          ],
+          "answers": [
+               "ICANN"
+          ]
+     },
+     {
+          "text": "Which remedy restrains the defendant from disposing of the assets which may be used to satisfy plaintiff\u2019s claim?",
+          "type": "SINGLE",
+          "options": [
+               "Mareva Injunction",
+               "Anton Piller Order",
+               "John Doe Order",
+               "Permanent Injunction"
+          ],
+          "answers": [
+               "Mareva Injunction"
+          ]
+     },
+     {
+          "text": "Which court has the jurisdiction to entertain a patent infringement suit?",
+          "type": "MULTIPLE",
+          "options": [
+               "District Court",
+               "High Court",
+               "Supreme Court",
+               "Intellectual Property Appellate Board"
+          ],
+          "answers": [
+               "District Court",
+               "High Court"
+          ]
+     },
+     {
+          "text": "Which of the following are methods of alternative dispute resolution?",
+          "type": "MULTIPLE",
+          "options": [
+               "Arbitration",
+               "Expert Determination",
+               "Meeting",
+               "Mediation"
+          ],
+          "answers": [
+               "Arbitration",
+               "Expert Determination",
+               "Mediation"
+          ]
+     },
+     {
+          "text": "Which of the following are measures for enforcing IP? ",
+          "type": "MULTIPLE",
+          "options": [
+               "Fair Dealing",
+               "Civil and Criminal Actions",
+               "Border Measures",
+               "Cease and Desist Notice"
+          ],
+          "answers": [
+               "Civil and Criminal Actions",
+               "Border Measures",
+               "Cease and Desist Notice"
+          ]
+     }
+]

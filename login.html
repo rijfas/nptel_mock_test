@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+</head>
+<body>
+    <div id="main">
+        <header class="text-gray-600 body-font border-b-2 border-gray-300">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <svg class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 14l9-5-9-5-9 5 9 5z"></path><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"></path></svg>
+                <span class="ml-3 text-xl">NPTEL MOCK TEST</span>
+              </a>
+              <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900 cursor-pointer" href="index.html">Home</a>
+                <a class="mr-5 hover:text-gray-900 font-bold cursor-pointer" href="#">Sign In</a>
+                <a class="mr-5 hover:text-gray-900 cursor-pointer" href="about.html">About Us</a>
+              </nav>
+            </div>
+          </header>
+          <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+              <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+                <h1 class="title-font font-medium text-3xl text-gray-900">Slow-carb next level shoindcgoitch ethical authentic, poko scenester</h1>
+                <p class="leading-relaxed mt-4">Poke slow-carb mixtape knausgaard, typewriter street art gentrify hammock starladder roathse. Craies vegan tousled etsy austin.</p>
+              </div>
+              <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+                <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Sign In</h2>
+                <div class="relative mb-4">
+                  <label for="full-name" class="leading-7 text-sm text-gray-600">Full Name</label>
+                  <input type="text" id="full-name" name="full-name" class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                  <label for="email" class="leading-7 text-sm text-gray-600">Course</label>
+                  <input type="text" value="Intellectual Property" disabled class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <button class="text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg" id="start-exam">Start Exam</button>
+                <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+              </div>
+            </div>
+          </section>
+    </div>
+    <div id="intro" class="hidden">
+        <div class="flex justify-center items-center">
+          <div class="h-screen w-full flex flex-col justify-center items-center m-auto">
+            <div class='max-w-lg bg-white shadow-xl rounded-lg overflow-hidden mx-auto'>
+              <div class="py-4 px-8 mt-3">
+                <div class="flex flex-col mb-8">
+                  <h2 class="text-gray-700 font-semibold text-2xl tracking-wide mb-2">Welcome To NPTEL Mock Test</h2>
+                  <p class="text-gray-500 text-base">Please choose exam type and click start exam to start your mock test.</p>
+                </div>
+                <div class="bg-gray-100 rounded-lg">
+                  <div class="py-4 px-4">
+                    <div class="flex flex-col">
+                      <h4 class="text-lg font-semibold mb-3">Select Exam Type</h4>
+                      <div class="flex flex-col relative">
+                        <svg class="w-2 h-2 absolute top-0 right-0 m-4 pointer-events-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 232"><path d="M206 171.144L42.678 7.822c-9.763-9.763-25.592-9.763-35.355 0-9.763 9.764-9.763 25.592 0 35.355l181 181c4.88 4.882 11.279 7.323 17.677 7.323s12.796-2.441 17.678-7.322l181-181c9.763-9.764 9.763-25.592 0-35.355-9.763-9.763-25.592-9.763-35.355 0L206 171.144z" fill="#648299" fill-rule="nonzero"/></svg>
+                        <select id="exam-type" class="border border-gray-300 rounded-full text-gray-600 h-10 pl-5 pr-10 bg-white hover:border-gray-400 focus:outline-none appearance-none">
+                          <option value="1">Choose exam type</option>
+                          <option value="2">Week 1 Questions</option>
+                          <option value="3">Week 2 Questions</option>
+                          <option value="4">Week 3 Questions</option>
+                          <option value="5">Week 4 Questions</option>
+                          <option value="6">Week 5 Questions</option>
+                          <option value="7">Week 6 Questions</option>
+                          <option value="8">Week 7 Questions</option>
+                          <option value="9">Week 8 Questions</option>
+                          <option value="10">Week 9 Questions</option>
+                          <option value="11">Week 10 Questions</option>
+                          <option value="12">Week 11 Questions</option>
+                          <option value="13">Week 12 Questions</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="py-4">
+                  <button id="confirm-button" href="#" class="block tracking-widest uppercase text-center shadow bg-blue-500 hover:bg-blue-600 focus:shadow-outline focus:outline-none text-white text-sm font-bold py-3 px-10 rounded">Start Exam</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div id="exam-ui" class="hidden justify-center items-center">
+      <div class="h-screen w-full flex flex-col justify-center items-center m-auto ">
+        <div class='max-w-lg bg-white shadow-xl rounded-lg overflow-hidden mx-auto'>
+          <div class="py-4 px-8 mt-3">
+            <div class="flex flex-col mb-8">
+              <div class="flex justify-between">
+                <span id="prev">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z"></path></svg>
+                </span>
+                <h2 id="question-header" class="text-gray-700 font-semibold text-2xl tracking-wide mb-2"></h2>
+                <span id="next">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </span>
+              </div>
+              
+              <p id="question-text" class="text-gray-500 text-base">Loading Question...</p>
+            </div>
+            <div id="options">
+            </div>
+            <div id="type">
+
+            </div>
+            <div class="py-4">
+              <button id="save-button" href="#" class="block tracking-widest uppercase text-center shadow bg-blue-500 hover:bg-blue-600 focus:shadow-outline focus:outline-none text-white text-sm font-bold py-3 px-10 rounded">Save And Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="result-ui" class="justify-center items-center hidden">
+      <div class="h-screen w-full flex flex-col justify-center items-center m-auto">
+        <div class='max-w-lg bg-white shadow-xl rounded-lg overflow-hidden mx-auto'>
+          <div class="py-4 px-8 mt-3">
+            <div class="flex flex-col mb-8">
+              <div class="flex justify-center">
+                <h2 class="text-gray-700 font-semibold text-2xl tracking-wide mb-2">Quiz Completed</h2>
+              </div>
+              <div class="w-36  mx-auto mb-6">
+                <svg fill="none" stroke="#10B981" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              </div>
+              <p id="result-body" class="text-gray-500 text-base flex justify-center"></p>
+            </div>
+            <div class="py-4">
+              <a href="index.html" class="block tracking-widest uppercase text-center shadow bg-blue-500 hover:bg-blue-600 focus:shadow-outline focus:outline-none text-white text-sm font-bold py-3 px-10 rounded">Home</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

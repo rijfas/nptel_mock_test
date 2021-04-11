@@ -1,0 +1,134 @@
+[
+     {
+          "text": " Which of the following options are correct? Statement 1: Intellectual property is different from real property. Statement 2: Intellectual property may include critical business information. ",
+          "type": "SINGLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": [
+               "Statement 1 and 2 both are true"
+          ]
+     },
+     {
+          "text": " Which of the following options are correct? Statement 1: An intellectual effort is something which is exclusive to human beings Statement 2: A monkey clicking a picture on a camera is an intellectual effort ",
+          "type": "SINGLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": [
+               "Statement 1 is true, 2 is false"
+          ]
+     },
+     {
+          "text": "Which one of the following cannot be protected by Intellectual Property Rights?",
+          "type": "SINGLE",
+          "options": [
+               "A code for developing MS Office",
+               "A. R Rahman\u2019s new composition of a Bollywood song",
+               "An agricultural land",
+               "An invention for improvement in an existing technology"
+          ],
+          "answers": [
+               "An agricultural land"
+          ]
+     },
+     {
+          "text": " Which of the following options are correct? Statement 1: Infringement means assignment of an intellectual property right. Statement 2: Intellectual property is different from intellectual property right ",
+          "type": "SINGLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": [
+               "Statement 1 is false, 2 is true"
+          ]
+     },
+     {
+          "text": "Property can be classified as-",
+          "type": "MULTIPLE",
+          "options": [
+               "Public property",
+               "Private property",
+               "Common property",
+               "Domain property"
+          ],
+          "answers": [
+               "Public property",
+               "Private property"
+          ]
+     },
+     {
+          "text": " Which of the following options are correct? Statement 1: Rights can only be used in the sense of a licence. Statement 2: Discoveries are not regarded as inventions. ",
+          "type": "SINGLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": [
+               "Statement 1 is false, 2 is true"
+          ]
+     },
+     {
+          "text": "Intellectual Property is mostly a type of\u2014",
+          "type": "SINGLE",
+          "options": [
+               "Tangible property",
+               "Real Property",
+               "Intangible Property",
+               "None of the above"
+          ],
+          "answers": [
+               "Intangible Property"
+          ]
+     },
+     {
+          "text": "What is the duration of copyright protection Paul can seek in India for his new non-fiction book?",
+          "type": "SINGLE",
+          "options": [
+               "Non-fiction works cannot be protected",
+               "Only during the lifetime of Paul",
+               "Lifetime of Paul plus a period of 60 years after his death",
+               "Paul or his legal heirs can seek copyright protection in his work for perpetuity"
+          ],
+          "answers": [
+               "Lifetime of Paul plus a period of 60 years after his death"
+          ]
+     },
+     {
+          "text": "TRIPS stands for-",
+          "type": "SINGLE",
+          "options": [
+               "Trip Related Aspects of Intellectual Property Routes",
+               "Trade Related Aspects of Intellectual Property Rights",
+               "Trade Related Aspects of Internal Property Rights",
+               "Trip Related Aspects of Intellectual Property Roles",
+               "Trade Related Aspects of Intellectual Property Routes"
+          ],
+          "answers": [
+               "Trade Related Aspects of Intellectual Property Rights"
+          ]
+     },
+     {
+          "text": "Which of the following IP rights can be renewed each and every time after the end of their term in India?",
+          "type": "SINGLE",
+          "options": [
+               "Patents",
+               "Trade Marks",
+               "Copyrights",
+               "Designs"
+          ],
+          "answers": [
+               "Trade Marks"
+          ]
+     }
+]

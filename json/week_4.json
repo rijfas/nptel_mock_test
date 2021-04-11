@@ -1,7 +1,7 @@
 [
      {
-          "text": "\n\nStatement 1: An application for compulsory license under Section\n                                  84 can be made at any time after the grant of the patent.\n\n\n \n\u00a0 Statement 2:\n\n\nAn application for compulsory license under Section 84 can be made by any\n                                  interested person.\u00a0\n\n",
-          "type": "MULTIPLE",
+          "text": " Statement 1: An application for compulsory license under Section 84 can be made at any time after the grant of the patent. Statement 2: An application for compulsory license under Section 84 can be made by any interested person. ",
+          "type": "SINGLE",
           "options": [
                "Statement 1 is true, 2 is false",
                "Statement 1 is false, 2 is true",
@@ -13,8 +13,8 @@
           ]
      },
      {
-          "text": "Statement 1: The patent application shall be ordinarily open to\n                                the public after a period of 18 months from the date of filing the application\n                                \n \n\u00a0 Statement 2: The applicant shall be\n                                entitled to file a suit for infringement after the publication of the patent application\n                              ",
-          "type": "MULTIPLE",
+          "text": "Statement 1: The patent application shall be ordinarily open to the public after a period of 18 months from the date of filing the application Statement 2: The applicant shall be entitled to file a suit for infringement after the publication of the patent application ",
+          "type": "SINGLE",
           "options": [
                "Statement 1 is true, 2 is false",
                "Statement 1 is false, 2 is true",
@@ -26,8 +26,8 @@
           ]
      },
      {
-          "text": "How many types of compulsory licenses are provided for under the\n                                Indian patent Act-",
-          "type": "MULTIPLE",
+          "text": "How many types of compulsory licenses are provided for under the Indian patent Act-",
+          "type": "SINGLE",
           "options": [
                "1",
                "2",
@@ -40,7 +40,7 @@
      },
      {
           "text": "Product patent was introduced in India in the year- ",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "1996",
                "2002",
@@ -52,8 +52,8 @@
           ]
      },
      {
-          "text": "Compulsory License for export under Indian Patents Act is for--\n                              ",
-          "type": "MULTIPLE",
+          "text": "Compulsory License for export under Indian Patents Act is for-- ",
+          "type": "SINGLE",
           "options": [
                "Pharmaceutical Products",
                "Diagnostic kits required for their use",
@@ -65,8 +65,8 @@
           ]
      },
      {
-          "text": "India follows which of the following rules in relation to patent\n                                rights?",
-          "type": "MULTIPLE",
+          "text": "India follows which of the following rules in relation to patent rights?",
+          "type": "SINGLE",
           "options": [
                "National exhaustion",
                "Product Exhaustion",
@@ -78,8 +78,8 @@
           ]
      },
      {
-          "text": "The appropriate court for initiating a suit for patent\n                                infringement is-",
-          "type": "SINGLE",
+          "text": "The appropriate court for initiating a suit for patent infringement is-",
+          "type": "MULTIPLE",
           "options": [
                "District Court",
                "High Court",
@@ -92,8 +92,8 @@
           ]
      },
      {
-          "text": "Post grant opposition can be filed by\u00e2\u20ac\u201d",
-          "type": "MULTIPLE",
+          "text": "Post grant opposition can be filed by\u2014",
+          "type": "SINGLE",
           "options": [
                "Only by the Central government in public interest",
                "Any person interested",
@@ -106,7 +106,7 @@
      },
      {
           "text": "The publication of an application shall be available",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "Official Journal of the Patent office",
                "Official Gazette of the Government of India",
@@ -118,8 +118,8 @@
           ]
      },
      {
-          "text": "As per section 100, Central government can use the invention for\n                                the purpose of the government in cases of: ",
-          "type": "SINGLE",
+          "text": "As per section 100, Central government can use the invention for the purpose of the government in cases of: ",
+          "type": "MULTIPLE",
           "options": [
                "National emergency",
                "Extreme urgency",

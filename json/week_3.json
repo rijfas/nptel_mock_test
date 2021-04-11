@@ -1,33 +1,33 @@
 [
      {
-          "text": "Statement 1: Patent is an exclusive monopoly right conferred by\n                                the government.\n                                \n \n\u00a0 \u00a0Statement 2: A patent is granted\n                                for a period of 10 years.",
-          "type": "MULTIPLE",
-          "options": [
-               "Statement 1 is true, 2 is false",
-               "Statement 1 is false, 2 is true",
-               "Statement 1 and 2 both are false",
-               "Statement 1 and 2 both are true"
-          ],
-          "answers": [
-               "Statement 1 is true, 2 is false"
-          ]
-     },
-     {
-          "text": "\n\nStatement 1.\u00a0 Arogyapacha, a traditional medicine which gives strength is an\n                                  excluded patentable invention as per Section 3 of the Patents Act, 1970.\n\n\n \n\u00a0 \u00a0Statement 2: A\n                                  play-cum-educational device which comprises of a chart, a set of tokens for players\n                                  and one or more dice is a patentable subject matter.\n\n",
-          "type": "MULTIPLE",
-          "options": [
-               "Statement 1 is true, 2 is false",
-               "Statement 1 is false, 2 is true",
-               "Statement 1 and 2 both are false",
-               "Statement 1 and 2 both are true"
-          ],
-          "answers": [
-               "Statement 1 is true, 2 is false"
-          ]
-     },
-     {
-          "text": "In order to be granted a patent, an invention must satisfy which\n                                of the following conditions? ",
+          "text": "Statement 1: Patent is an exclusive monopoly right conferred by the government. Statement 2: A patent is granted for a period of 10 years.",
           "type": "SINGLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": [
+               "Statement 1 is true, 2 is false"
+          ]
+     },
+     {
+          "text": " Statement 1. Arogyapacha, a traditional medicine which gives strength is an excluded patentable invention as per Section 3 of the Patents Act, 1970. Statement 2: A play-cum-educational device which comprises of a chart, a set of tokens for players and one or more dice is a patentable subject matter. ",
+          "type": "SINGLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": [
+               "Statement 1 is true, 2 is false"
+          ]
+     },
+     {
+          "text": "In order to be granted a patent, an invention must satisfy which of the following conditions? ",
+          "type": "MULTIPLE",
           "options": [
                "Inventive Step",
                "Novelty",
@@ -41,8 +41,8 @@
           ]
      },
      {
-          "text": "What of the following rights do not need a registration to be\n                                enforced?",
-          "type": "SINGLE",
+          "text": "What of the following rights do not need a registration to be enforced?",
+          "type": "MULTIPLE",
           "options": [
                "Trademarks",
                "Copyright",
@@ -55,8 +55,8 @@
           ]
      },
      {
-          "text": "The patent owner shall enjoy the monopoly right for his/her\n                                invention for a maximum period of",
-          "type": "MULTIPLE",
+          "text": "The patent owner shall enjoy the monopoly right for his/her invention for a maximum period of",
+          "type": "SINGLE",
           "options": [
                "Initially granted for 10 years then can be renewed",
                "12 years from the date of filing of the application",
@@ -69,7 +69,7 @@
      },
      {
           "text": "Who among the following can apply for a patent?",
-          "type": "SINGLE",
+          "type": "MULTIPLE",
           "options": [
                "True and first inventor",
                "Assignee of the true and first inventor",
@@ -83,8 +83,8 @@
           ]
      },
      {
-          "text": "Which of the following inventions can be patented as per Section\n                                3 of the Patents Act, 1970?",
-          "type": "MULTIPLE",
+          "text": "Which of the following inventions can be patented as per Section 3 of the Patents Act, 1970?",
+          "type": "SINGLE",
           "options": [
                "A device used for executing human beings",
                "A perpetual motion machine",
@@ -96,8 +96,8 @@
           ]
      },
      {
-          "text": "Which of these are types of a patent application that can be\n                                filed under the Indian Patent Act?",
-          "type": "SINGLE",
+          "text": "Which of these are types of a patent application that can be filed under the Indian Patent Act?",
+          "type": "MULTIPLE",
           "options": [
                "PCT National Phase Application",
                "Conventional Application",
@@ -112,8 +112,8 @@
           ]
      },
      {
-          "text": "A complete specification for a patent has to be filed within\n                                _______",
-          "type": "MULTIPLE",
+          "text": "A complete specification for a patent has to be filed within _______",
+          "type": "SINGLE",
           "options": [
                "12 months",
                "18 months",
@@ -126,7 +126,7 @@
      },
      {
           "text": "Invention relating to atomic energy ________",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "Can be granted a patent",
                "Are not patentable according to section 4",

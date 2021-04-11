@@ -1,0 +1,141 @@
+[
+     {
+          "text": " Statement 1: A trade mark confers exclusive rights to use the mark. Statement 2: The term of a trade mark is 15 years. ",
+          "type": "SINGLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is true, 2 is false",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": [
+               "Statement 1 is true, 2 is false"
+          ]
+     },
+     {
+          "text": " Statement 1: Sounds and colours can be registered as a trade mark. Statement 2: A shape mark can also be a trade mark ",
+          "type": "SINGLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": [
+               "Statement 1 and 2 both are true"
+          ]
+     },
+     {
+          "text": "Which of the following is not a defence to infringement?",
+          "type": "SINGLE",
+          "options": [
+               "Honest Concurrent Use",
+               "Consent of the Trade Mark holder",
+               "Comparative Advertisement",
+               "Disparaging Advertisement"
+          ],
+          "answers": [
+               "Disparaging Advertisement"
+          ]
+     },
+     {
+          "text": "Which of the following leads to loosing protection of a trade mark?",
+          "type": "SINGLE",
+          "options": [
+               "Assignment",
+               "Mortgage",
+               "Non-registration",
+               "Non-usage"
+          ],
+          "answers": [
+               "Non-usage"
+          ]
+     },
+     {
+          "text": "The trade mark is registered and can be renewed every time for a period of",
+          "type": "SINGLE",
+          "options": [
+               "5 years",
+               "10 years",
+               "15 years",
+               "20 years"
+          ],
+          "answers": [
+               "10 years"
+          ]
+     },
+     {
+          "text": "Which of the following are absolute grounds for refusal of registration?",
+          "type": "MULTIPLE",
+          "options": [
+               "Customary marks",
+               "Marks containing obscene or scandalous matter",
+               "Marks identical/similar to earlier trademark",
+               "Marks causing confusion"
+          ],
+          "answers": [
+               "Customary marks",
+               "Marks containing obscene or scandalous matter",
+               "Marks causing confusion"
+          ]
+     },
+     {
+          "text": "A mark includes",
+          "type": "MULTIPLE",
+          "options": [
+               "Name",
+               "Device",
+               "Label",
+               "Signature"
+          ],
+          "answers": [
+               "Name",
+               "Device",
+               "Label",
+               "Signature"
+          ]
+     },
+     {
+          "text": "Which of the following are conditions of passing off? ",
+          "type": "MULTIPLE",
+          "options": [
+               "The trademark is registered",
+               "The claimant has goodwill",
+               "The defendant has goodwill",
+               "The defendant made a representation that is likely to deceive the public"
+          ],
+          "answers": [
+               "The claimant has goodwill",
+               "The defendant made a representation that is likely to deceive the public"
+          ]
+     },
+     {
+          "text": "Which of the following leads to infringement of a trademark? ",
+          "type": "MULTIPLE",
+          "options": [
+               "Identity with registered mark and similarity",
+               "Comparative advertisement",
+               "Unauthorised use of trademark on packaging",
+               "Voluntarily licensing use of a trademark"
+          ],
+          "answers": [
+               "Identity with registered mark and similarity",
+               "Unauthorised use of trademark on packaging"
+          ]
+     },
+     {
+          "text": "Which of the following international agreements relate to trademarks?",
+          "type": "MULTIPLE",
+          "options": [
+               "Paris Convention, 1883",
+               "Berne Convention, 1886",
+               "Madrid Agreement, 1891",
+               "TRIPS Agreement, 1995"
+          ],
+          "answers": [
+               "Paris Convention, 1883",
+               "Madrid Agreement, 1891",
+               "TRIPS Agreement, 1995"
+          ]
+     }
+]

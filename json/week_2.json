@@ -1,7 +1,7 @@
 [
      {
-          "text": "Which of the following options are correct?\n                                \nStatement 1:\n Investment refers to a\n                                resource spent to create enduring productive services.\n                                \nStatement 2:\n Capital refers to a fixed asset\n                                that creates the above mentioned productive services. ",
-          "type": "MULTIPLE",
+          "text": "Which of the following options are correct? Statement 1: Investment refers to a resource spent to create enduring productive services. Statement 2: Capital refers to a fixed asset that creates the above mentioned productive services. ",
+          "type": "SINGLE",
           "options": [
                "Statement 1 is true, 2 is false",
                "Statement 1 is false, 2 is true",
@@ -14,7 +14,7 @@
      },
      {
           "text": "SCP regime developed a license called the:",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "Compulsory License",
                "Frand License",
@@ -27,8 +27,8 @@
           ]
      },
      {
-          "text": "Which of the following cannot be considered as an aspect of\n                                investment?",
-          "type": "MULTIPLE",
+          "text": "Which of the following cannot be considered as an aspect of investment?",
+          "type": "SINGLE",
           "options": [
                "Cost",
                "Long term return",
@@ -40,8 +40,8 @@
           ]
      },
      {
-          "text": "Which section of the Indian Patent Act prevents patents for new\n                                form of known substances?",
-          "type": "MULTIPLE",
+          "text": "Which section of the Indian Patent Act prevents patents for new form of known substances?",
+          "type": "SINGLE",
           "options": [
                "Section 12",
                "Section 33(d)",
@@ -53,8 +53,8 @@
           ]
      },
      {
-          "text": "Which of the following are the grounds for rejecting Novartis\n                                patent?",
-          "type": "SINGLE",
+          "text": "Which of the following are the grounds for rejecting Novartis patent?",
+          "type": "MULTIPLE",
           "options": [
                "Anticipation",
                "Non-obviousness",
@@ -68,8 +68,8 @@
           ]
      },
      {
-          "text": "Which of the following type of legal protection can be accorded\n                                to Windows 10 Operating System in India?",
-          "type": "MULTIPLE",
+          "text": "Which of the following type of legal protection can be accorded to Windows 10 Operating System in India?",
+          "type": "SINGLE",
           "options": [
                "Copyright",
                "Patent",
@@ -82,7 +82,7 @@
      },
      {
           "text": "Which of the following assets is an intangible asset?",
-          "type": "SINGLE",
+          "type": "MULTIPLE",
           "options": [
                "Brand name",
                "Goodwill",
@@ -96,23 +96,23 @@
           ]
      },
      {
-          "text": "Which of the following activities can be considered as an\n                                intangible investment?",
-          "type": "SINGLE",
+          "text": "Which of the following activities can be considered as an intangible investment?",
+          "type": "MULTIPLE",
           "options": [
-               "Tesla\u00e2\u20ac\u2122s new technological idea of running cars from renewable resources",
-               "Apple\u00e2\u20ac\u2122s new product design for a foldable iPhone",
+               "Tesla\u2019s new technological idea of running cars from renewable resources",
+               "Apple\u2019s new product design for a foldable iPhone",
                "Land bought by Google to set up an office in Chennai",
-               "Facebook\u00e2\u20ac\u2122s codified information"
+               "Facebook\u2019s codified information"
           ],
           "answers": [
-               "Tesla\u00e2\u20ac\u2122s new technological idea of running cars from renewable resources",
-               "Apple\u00e2\u20ac\u2122s new product design for a foldable iPhone",
-               "Facebook\u00e2\u20ac\u2122s codified information"
+               "Tesla\u2019s new technological idea of running cars from renewable resources",
+               "Apple\u2019s new product design for a foldable iPhone",
+               "Facebook\u2019s codified information"
           ]
      },
      {
           "text": "Which of the following assets is not an intangible asset?",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "Brand name",
                "Goodwill",
@@ -124,8 +124,8 @@
           ]
      },
      {
-          "text": "Business have invested in things that provide long term value,\n                                but which do not have a physical presence. Which of the following things correctly\n                                represents this statement?",
-          "type": "SINGLE",
+          "text": "Business have invested in things that provide long term value, but which do not have a physical presence. Which of the following things correctly represents this statement?",
+          "type": "MULTIPLE",
           "options": [
                "Research and Development",
                "Branding",

@@ -1,7 +1,7 @@
 [
      {
           "text": "Statement 1: Creative industries are sectors that focus substantially on creating and exploiting IP products.\nStatement 2: Piracy negatively affects the livelihood of persons working in the industry.\u00a0",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "Statement 1 is true, 2 is false",
                "Statement 1 is false, 2 is true",
@@ -13,8 +13,8 @@
           ]
      },
      {
-          "text": "Statement 1: National IPR Policy lays the future roadmap for IPRs in India.\u00a0\nStatement 2: One of the objectives of National IPR Policy is to register copyrights.",
-          "type": "MULTIPLE",
+          "text": "Statement 1: National IPR Policy lays the future roadmap for IPRs in India. Statement 2: One of the objectives of National IPR Policy is to register copyrights.",
+          "type": "SINGLE",
           "options": [
                "Statement 1 is true, 2 is false",
                "Statement 1 is false, 2 is true",
@@ -26,8 +26,8 @@
           ]
      },
      {
-          "text": "Statement 1: CIPAM conducts training programs to discourage innovation.\u00a0\nStatement 2: CIPAM stands for Cell for IPR Awareness and Management.\u00a0",
-          "type": "MULTIPLE",
+          "text": "Statement 1: CIPAM conducts training programs to discourage innovation. Statement 2: CIPAM stands for Cell for IPR Awareness and Management.\u00a0",
+          "type": "SINGLE",
           "options": [
                "Statement 1 is true, 2 is false",
                "Statement 1 is false, 2 is true",
@@ -40,7 +40,7 @@
      },
      {
           "text": "Which of the following are challenges in IP education?",
-          "type": "SINGLE",
+          "type": "MULTIPLE",
           "options": [
                "Teaching with case studies",
                "Speacialised course at university level",
@@ -54,7 +54,7 @@
      },
      {
           "text": "The IPR Chairs are established under which scheme?",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "TRIPS",
                "SPRIHA",
@@ -67,7 +67,7 @@
      },
      {
           "text": "IP as a subject matter falls under which list of the Constitution?",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "Union List",
                "State List",
@@ -80,7 +80,7 @@
      },
      {
           "text": "Which of the following cases relates to digital rights management?",
-          "type": "MULTIPLE",
+          "type": "SINGLE",
           "options": [
                "R G Anand case",
                "D U Photocopy case",
@@ -93,7 +93,7 @@
      },
      {
           "text": "Major forms of piracy in India are?",
-          "type": "SINGLE",
+          "type": "MULTIPLE",
           "options": [
                "Home video market",
                "Cable piracy",
@@ -107,8 +107,8 @@
           ]
      },
      {
-          "text": "Which of the following are examples of creative sectors?  ",
-          "type": "SINGLE",
+          "text": "Which of the following are examples of creative sectors? ",
+          "type": "MULTIPLE",
           "options": [
                "Advertising",
                "Sports",
@@ -124,7 +124,7 @@
      },
      {
           "text": "Which of the following are objectives of SPRIHA?",
-          "type": "SINGLE",
+          "type": "MULTIPLE",
           "options": [
                "Develop credit/specialized courses on IP",
                "Promote outreach of IP matters",

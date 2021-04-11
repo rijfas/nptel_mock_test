@@ -1,0 +1,140 @@
+[
+     {
+          "text": "Which of the following options are correct? Statement 1: Investment refers to a resource spent to create enduring productive services. Statement 2: Capital refers to a fixed asset that creates the above mentioned productive services. ",
+          "type": "SINGLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": [
+               "Statement 1 and 2 both are true"
+          ]
+     },
+     {
+          "text": "SCP regime developed a license called the:",
+          "type": "SINGLE",
+          "options": [
+               "Compulsory License",
+               "Frand License",
+               "Exclusive License",
+               "Sole License",
+               "Transferable License"
+          ],
+          "answers": [
+               "Frand License"
+          ]
+     },
+     {
+          "text": "Which of the following cannot be considered as an aspect of investment?",
+          "type": "SINGLE",
+          "options": [
+               "Cost",
+               "Long term return",
+               "Enjoyment of the return",
+               "Marketing"
+          ],
+          "answers": [
+               "Marketing"
+          ]
+     },
+     {
+          "text": "Which section of the Indian Patent Act prevents patents for new form of known substances?",
+          "type": "SINGLE",
+          "options": [
+               "Section 12",
+               "Section 33(d)",
+               "Section 3(d)",
+               "Section 2"
+          ],
+          "answers": [
+               "Section 3(d)"
+          ]
+     },
+     {
+          "text": "Which of the following are the grounds for rejecting Novartis patent?",
+          "type": "MULTIPLE",
+          "options": [
+               "Anticipation",
+               "Non-obviousness",
+               "Utility",
+               "Wrongful priority"
+          ],
+          "answers": [
+               "Anticipation",
+               "Non-obviousness",
+               "Wrongful priority"
+          ]
+     },
+     {
+          "text": "Which of the following type of legal protection can be accorded to Windows 10 Operating System in India?",
+          "type": "SINGLE",
+          "options": [
+               "Copyright",
+               "Patent",
+               "Designs",
+               "Geographical Indication"
+          ],
+          "answers": [
+               "Copyright"
+          ]
+     },
+     {
+          "text": "Which of the following assets is an intangible asset?",
+          "type": "MULTIPLE",
+          "options": [
+               "Brand name",
+               "Goodwill",
+               "Inventory",
+               "Databases"
+          ],
+          "answers": [
+               "Brand name",
+               "Goodwill",
+               "Databases"
+          ]
+     },
+     {
+          "text": "Which of the following activities can be considered as an intangible investment?",
+          "type": "MULTIPLE",
+          "options": [
+               "Tesla\u2019s new technological idea of running cars from renewable resources",
+               "Apple\u2019s new product design for a foldable iPhone",
+               "Land bought by Google to set up an office in Chennai",
+               "Facebook\u2019s codified information"
+          ],
+          "answers": [
+               "Tesla\u2019s new technological idea of running cars from renewable resources",
+               "Apple\u2019s new product design for a foldable iPhone",
+               "Facebook\u2019s codified information"
+          ]
+     },
+     {
+          "text": "Which of the following assets is not an intangible asset?",
+          "type": "SINGLE",
+          "options": [
+               "Brand name",
+               "Goodwill",
+               "Inventory",
+               "Patent"
+          ],
+          "answers": [
+               "Inventory"
+          ]
+     },
+     {
+          "text": "Business have invested in things that provide long term value, but which do not have a physical presence. Which of the following things correctly represents this statement?",
+          "type": "MULTIPLE",
+          "options": [
+               "Research and Development",
+               "Branding",
+               "Machines",
+               "Buildings"
+          ],
+          "answers": [
+               "Research and Development",
+               "Branding"
+          ]
+     }
+]

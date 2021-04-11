@@ -1,0 +1,136 @@
+[
+     {
+          "text": " Statement 1: The jurisdiction of Copyright Act extends to the whole of India. Statement 2: The term of copyright is life of author + 50 years as per the Indian Copyright Act. ",
+          "type": "SINGLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": [
+               "Statement 1 is true, 2 is false"
+          ]
+     },
+     {
+          "text": " Statement 1: Producer is the author of a cinematograph film. Statement 2: Composer is the author of a musical work. ",
+          "type": "SINGLE",
+          "options": [
+               "Statement 1 is true, 2 is false",
+               "Statement 1 is false, 2 is true",
+               "Statement 1 and 2 both are false",
+               "Statement 1 and 2 both are true"
+          ],
+          "answers": [
+               "Statement 1 and 2 both are true"
+          ]
+     },
+     {
+          "text": "Which of the following actions fall leads to infringement?",
+          "type": "MULTIPLE",
+          "options": [
+               "Reproduction as pirate copy",
+               "Research",
+               "Reproduction by substantial copying",
+               "Review"
+          ],
+          "answers": [
+               "Reproduction as pirate copy",
+               "Reproduction by substantial copying"
+          ]
+     },
+     {
+          "text": "For which of the following work \u2018Originality\u2019 condition is not required?",
+          "type": "SINGLE",
+          "options": [
+               "Literary Work",
+               "Artistic Work",
+               "Cinematograph film",
+               "Dramatic work"
+          ],
+          "answers": [
+               "Cinematograph film"
+          ]
+     },
+     {
+          "text": "As per the Berne Convention, the term on copyright protection was?",
+          "type": "SINGLE",
+          "options": [
+               "Life of the author + 14 years",
+               "Life of the author + 44 years",
+               "Life of the author + 65 years",
+               "Life of the author + 50 years"
+          ],
+          "answers": [
+               "Life of the author + 50 years"
+          ]
+     },
+     {
+          "text": "Which international agreement introduced the concept of neighbouring rights?",
+          "type": "SINGLE",
+          "options": [
+               "Rome Convention, 1961",
+               "Paris Convention, 1883",
+               "Berne Convention, 1886",
+               "Madrid Agreement, 1891"
+          ],
+          "answers": [
+               "Rome Convention, 1961"
+          ]
+     },
+     {
+          "text": "Which of the following cannot be protected by copyright?",
+          "type": "SINGLE",
+          "options": [
+               "Book",
+               "Song",
+               "Slogan",
+               "Photograph"
+          ],
+          "answers": [
+               "Slogan"
+          ]
+     },
+     {
+          "text": "Which of the following is a neighbouring right?",
+          "type": "MULTIPLE",
+          "options": [
+               "Translation rights",
+               "Broadcasting rights",
+               "Performers rights",
+               "Phonogram producer\u2019s rights"
+          ],
+          "answers": [
+               "Broadcasting rights",
+               "Performers rights",
+               "Phonogram producer\u2019s rights"
+          ]
+     },
+     {
+          "text": "Which of the following is way to transfer ownership of copyright? ",
+          "type": "MULTIPLE",
+          "options": [
+               "Commission of Work",
+               "Licensing the work",
+               "Translation of Work",
+               "Through a Will"
+          ],
+          "answers": [
+               "Licensing the work",
+               "Through a Will"
+          ]
+     },
+     {
+          "text": "Which of the following cases relates to photocopying of course packs?",
+          "type": "SINGLE",
+          "options": [
+               "R G Anand case",
+               "JNU Photocopy case",
+               "NLU Photocopy case",
+               "DU Photocopy case"
+          ],
+          "answers": [
+               "DU Photocopy case"
+          ]
+     }
+]
