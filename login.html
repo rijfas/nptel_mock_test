@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NPTEL MOCK TES</title>
     <link rel="stylesheet" href="css/tailwind.css">
 </head>
 <body>
+  <header id="exam-header" class="text-gray-600 body-font border-b-2 border-gray-300 hidden">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <svg class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 14l9-5-9-5-9 5 9 5z"></path><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"></path></svg>
+        <span class="ml-3 text-xl">NPTEL MOCK TEST</span>
+      </a>
+
+    </div>
+  </header>
     <div id="main">
         <header class="text-gray-600 body-font border-b-2 border-gray-300">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -25,21 +34,27 @@
           <section class="text-gray-600 body-font">
             <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
               <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-                <h1 class="title-font font-medium text-3xl text-gray-900">Slow-carb next level shoindcgoitch ethical authentic, poko scenester</h1>
-                <p class="leading-relaxed mt-4">Poke slow-carb mixtape knausgaard, typewriter street art gentrify hammock starladder roathse. Craies vegan tousled etsy austin.</p>
+                <h1 class="title-font font-medium text-3xl text-gray-900">NPTEL Mock Test With Assignment Questions</h1>
+                <p class="leading-relaxed mt-4">Each week assignment questions can be used to try the mock test.
+                  Mock test will start after you select the exam type.You can also keey track of the time elapsed
+                  using the timer in the dashboard.Exam can be stopped at any time using end exam button. 
+                  Final score and time will be displayed after completing the exam.
+
+                </p>
               </div>
               <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
                 <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Sign In</h2>
                 <div class="relative mb-4">
                   <label for="full-name" class="leading-7 text-sm text-gray-600">Full Name</label>
                   <input type="text" id="full-name" name="full-name" class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  <label for="full-name" class="leading-7 text-sm text-red-600 hidden" id="name-error">* required</label>
                 </div>
                 <div class="relative mb-4">
                   <label for="email" class="leading-7 text-sm text-gray-600">Course</label>
                   <input type="text" value="Intellectual Property" disabled class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                 </div>
                 <button class="text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg" id="start-exam">Start Exam</button>
-                <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+                <p class="text-xs text-gray-500 mt-3">Full name is entered only for displaying in test results.</p>
               </div>
             </div>
           </section>
@@ -75,6 +90,7 @@
                           <option value="13">Week 12 Questions</option>
                         </select>
                       </div>
+                    <label for="full-name" class="leading-7 text-sm text-red-600 hidden" id="course-error">* required</label>
                     </div>
                   </div>
                 </div>
@@ -86,17 +102,62 @@
           </div>
         </div>
     </div>
-    <div id="exam-ui" class="hidden justify-center items-center">
-      <div class="h-screen w-full flex flex-col justify-center items-center m-auto ">
+    <div id="exam-ui" class="hidden grid-cols-1 md:grid-cols-3 justify-center items-center">
+      <div class="col-span-1 h-screen w-full flex flex-col justify-center items-center m-auto ">
         <div class='max-w-lg bg-white shadow-xl rounded-lg overflow-hidden mx-auto'>
           <div class="py-4 px-8 mt-3">
             <div class="flex flex-col mb-8">
               <div class="flex justify-between">
-                <span id="prev">
+                <h2  class="text-gray-700 font-semibold text-2xl tracking-wide mb-2">Exam Info</h2>
+              </div>
+              <div class="flex flex-wrap items-center text-base justify-start gap-2">
+                <span class="font-bold">
+                  Elapsed Time: 
+                </span>
+                <span id="time-view">
+                    00:00:00
+                </span>
+              </div>
+              <div class="flex flex-wrap items-center text-base justify-start gap-2">
+                <span class="font-bold">
+                  User: 
+                </span>
+                <span id="user-display" class="mr-5">
+                  User
+                </span>
+              </div>
+              <div class="flex flex-wrap items-center text-base justify-start gap-2">
+                <span class="font-bold">
+                  Answered: 
+                </span>
+                <span id="question-count-display" class="mr-5">
+                  
+                </span>
+              </div>
+            </div>
+            <div class="grid grid-cols-4" id="question-nav">
+            </div>
+            <div class="mt-5 flex justify-center">
+              <button id="end-button" class="inline-flex items-center text-white bg-red-400 border-0 py-1 px-3 focus:outline-none hover:bg-red-500 rounded text-base mt-4 md:mt-0">End Exam
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-span-2 h-screen w-full flex flex-col justify-center items-center m-auto ">
+        <div class='max-w-lg bg-white shadow-xl rounded-lg overflow-hidden mx-auto'>
+          <div class="py-4 px-8 mt-3">
+            <div class="flex flex-col mb-8">
+              <div class="flex justify-between">
+                <span id="prev" class="transform transition duration-100 ease-in hover:scale-125">
                   <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z"></path></svg>
                 </span>
                 <h2 id="question-header" class="text-gray-700 font-semibold text-2xl tracking-wide mb-2"></h2>
-                <span id="next">
+                <span id="next" class="transform transition duration-100 ease-in hover:scale-125">
                   <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                 </span>
               </div>
