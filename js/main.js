@@ -7,9 +7,11 @@ const startButton = document.querySelector("#start-exam");
 const confirmButton = document.querySelector("#confirm-button");
 const prevButton = document.querySelector("#prev");
 const nextButton = document.querySelector("#next");
-const saveAndNextButton = document.querySelector("#save-button");
+const saveButton = document.querySelector("#save-button");
+const saveAndNextButton = document.querySelector("#save-next-button");
 const endButton = document.querySelector("#end-button");
 
+var elem = document.documentElement;
 var correctAnswers = 0;
 var examType = 1;
 var userName;
@@ -42,6 +44,7 @@ confirmButton.addEventListener("click", () => {
         examUi.classList.add('grid');
         loadExam(loadQuestions, examType-1);
         startTimer();
+        openFullscreen();
     }
     else{
         document.getElementById("course-error").classList.remove("hidden");
@@ -59,6 +62,10 @@ nextButton.addEventListener("click", () => {
 
 saveAndNextButton.addEventListener("click", () => {
     saveAndNext();
+});
+
+saveButton.addEventListener("click", () => {
+    saveAnswer();
 });
 
 endButton.addEventListener("click", () => {
@@ -91,6 +98,7 @@ function loadExam(callback, week) {
     selectedAnswers = [];
     const options = document.querySelector("#options");
     options.innerHTML = "";
+    document.querySelector("#loader").classList.add("hidden");
     document.querySelector("#question-text").innerHTML = currentQuestion.text;
     document.querySelector("#type").innerHTML =  '<span class="font-bold text-gray-400 mt-10">' + ((currentQuestion.type == 'SINGLE') ? "Select only one answer.":"Multiple answers can be selected.") + "</span>";
     document.querySelector("#question-header").innerHTML = "Question "+(currentQuestionIndex+1)+"/10";
@@ -169,6 +177,7 @@ function loadExam(callback, week) {
 
  function removeAnswer(answer, is_single){
     if(is_single) {
+        answers[currentQuestionIndex] = [];
         selectedAnswers = [];
         document.querySelectorAll('.qn-option').forEach((element => {
             element.classList.remove("bg-gray-500");
@@ -201,6 +210,21 @@ function saveAndNext() {
 
 }
 
+function saveAnswer() {
+    if(selectedAnswers.length>0)
+        answers[currentQuestionIndex] = selectedAnswers;
+    answeredQuestions = 0;
+    answers.forEach(()=>{answeredQuestions++;});
+    document.getElementById("question-count-display").innerHTML = answeredQuestions + "/" + questions.length;
+    if(answeredQuestions == questions.length) {
+        endButton.classList.remove('bg-red-400', 'hover:bg-red-500');
+        endButton.classList.add('bg-green-400', 'hover:bg-green-500');
+        endButton.textContent = "Submit Exam";
+    }
+    loadQuestionNav();
+
+}
+
 function startTimer() {
     var countDownDate = new Date().getTime();
     timer = setInterval(function() {
@@ -219,21 +243,22 @@ function startTimer() {
 }
 
 function endExam() {
+    console.log(answers);
         for(i=0;i<questions.length;i++){
             if(answers[i]!=undefined){
-                let is_correct = true;
+                let is_correct = answers[i].length>0;
                 answers[i].forEach((e)=>{if(questions[i].answers.indexOf(e)==-1)is_correct=false;});
                 if(is_correct)
                     correctAnswers++;
             }
         }
         document.getElementById("result-body").innerHTML = 'Name: ' + userName + '<br>' + 'Elapsed Time:' + elapsedTime + '<br>' + correctAnswers + '/' + questions.length + ' Are Correct'; 
-        examUi.classList.remove('flex');
+        examUi.classList.remove('grid');
         examUi.classList.add('hidden');
-        examHeader.classList.add('hidden');
         resultUi.classList.remove("hidden");
         resultUi.classList.add("flex");
         clearInterval(timer);
+        closeFullscreen();
 }
 
 function loadQuestionNav() {
@@ -244,10 +269,15 @@ function loadQuestionNav() {
         currentQuestionNav.addEventListener("click", ()=>{gotoQuestion(i);});
         if(answers[i-1]!=undefined){
             currentQuestionNav.classList.add('bg-green-400');
+            currentQuestionNav.classList.remove('border-gray-200');
+            currentQuestionNav.classList.add('border-green-400');
             currentQuestionNav.classList.add('text-white');
         }
         else {
             currentQuestionNav.classList.add('bg-gray-200');
+            currentQuestionNav.classList.remove('border-green-400');
+            currentQuestionNav.classList.add('border-gray-200');
+
         }
         if(currentQuestionIndex==i-1)
             currentQuestionNav.classList.add( 'border-blue-400');
@@ -261,5 +291,25 @@ function gotoQuestion(index) {
     loadQuestion();
     loadQuestionNav();
 }
+
+function openFullscreen() {
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.webkitRequestFullscreen) {
+      elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) {
+      elem.msRequestFullscreen();
+    }
+  }
+  
+  function closeFullscreen() {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    }
+  }
 
  
