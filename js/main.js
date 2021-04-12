@@ -1,7 +1,6 @@
 const main = document.querySelector("#main");
 const intro = document.querySelector("#intro");
 const examUi = document.querySelector("#exam-ui");
-const examHeader = document.querySelector("#exam-header");
 const resultUi = document.querySelector("#result-ui");
 const questionNav = document.querySelector("#question-nav");
 const startButton = document.querySelector("#start-exam");
@@ -39,7 +38,6 @@ confirmButton.addEventListener("click", () => {
     if(examType>1){
         intro.classList.add('hidden');
         examUi.classList.remove('hidden');
-        examHeader.classList.remove('hidden');
         document.getElementById("user-display").innerHTML = userName;
         examUi.classList.add('grid');
         loadExam(loadQuestions, examType-1);
