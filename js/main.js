@@ -7,8 +7,10 @@ const startButton = document.querySelector("#start-exam");
 const confirmButton = document.querySelector("#confirm-button");
 const prevButton = document.querySelector("#prev");
 const nextButton = document.querySelector("#next");
-const saveAndNextButton = document.querySelector("#save-button");
+const saveAndNextButton = document.querySelector("#save-next-button");
+const saveButton = document.querySelector("#save-button");
 const endButton = document.querySelector("#end-button");
+const retryButton = document.querySelector("#retry");
 
 var correctAnswers = 0;
 var examType = 1;
@@ -49,6 +51,12 @@ confirmButton.addEventListener("click", () => {
     
 });
 
+retryButton.addEventListener("click", () => {
+    currentQuestionIndex = 0;
+    examUi.classList.add('hidden');
+    intro.classList.remove('hidden');
+});
+
 prevButton.addEventListener("click", () => {
     prevQuestion();
 });
@@ -61,9 +69,14 @@ saveAndNextButton.addEventListener("click", () => {
     saveAndNext();
 });
 
+saveButton.addEventListener("click", () => {
+    saveAnswer();
+});
+
 endButton.addEventListener("click", () => {
     endExam();
 });
+
 
 function loadExam(callback, week) {   
     var xobj = new XMLHttpRequest();
@@ -83,7 +96,7 @@ function loadExam(callback, week) {
     loadQuestionNav();
     correctAnswers = 0;
     document.getElementById("question-count-display").innerHTML = answeredQuestions + "/" + questions.length;
-    loadQuestion()
+    loadQuestion();
  }
 
  function loadQuestion() {
@@ -107,6 +120,7 @@ function loadExam(callback, week) {
                     element.classList.remove('bg-gray-200', 'hover:bg-gray-300');
                     element.classList.add('bg-gray-500', 'hover:bg-gray-600');
                     element.classList.add("text-white");
+                    element.classList.add("qn-selected");
 
                 }
         }
@@ -170,6 +184,7 @@ function loadExam(callback, week) {
  function removeAnswer(answer, is_single){
     if(is_single) {
         selectedAnswers = [];
+        answers[currentQuestionIndex] = [];
         document.querySelectorAll('.qn-option').forEach((element => {
             element.classList.remove("bg-gray-500");
             element.classList.add("bg-gray-200");
@@ -181,7 +196,8 @@ function loadExam(callback, week) {
     }
         
     else {
-        selectedAnswers = selectedAnswers.filter((element)=>{return answer.textContent != element;});    
+        selectedAnswers = selectedAnswers.filter((element)=>{return answer.textContent != element;});
+        answers[currentQuestionIndex] = selectedAnswers;    
     }
 }
 
@@ -189,7 +205,7 @@ function saveAndNext() {
     if(selectedAnswers.length>0)
         answers[currentQuestionIndex] = selectedAnswers;
     answeredQuestions = 0;
-    answers.forEach(()=>{answeredQuestions++;});
+    answers.forEach((element)=>{if(element.length>0)answeredQuestions++;});
     document.getElementById("question-count-display").innerHTML = answeredQuestions + "/" + questions.length;
     if(answeredQuestions == questions.length) {
         endButton.classList.remove('bg-red-400', 'hover:bg-red-500');
@@ -197,6 +213,21 @@ function saveAndNext() {
         endButton.textContent = "Submit Exam";
     }
     nextQuestion();
+    loadQuestionNav();
+
+}
+
+function saveAnswer() {
+    if(selectedAnswers.length>0)
+        answers[currentQuestionIndex] = selectedAnswers;
+    answeredQuestions = 0;
+    answers.forEach((element)=>{if(element.length>0)answeredQuestions++;});
+    document.getElementById("question-count-display").innerHTML = answeredQuestions + "/" + questions.length;
+    if(answeredQuestions == questions.length) {
+        endButton.classList.remove('bg-red-400', 'hover:bg-red-500');
+        endButton.classList.add('bg-green-400', 'hover:bg-green-500');
+        endButton.textContent = "Submit Exam";
+    }
     loadQuestionNav();
 
 }
@@ -219,9 +250,10 @@ function startTimer() {
 }
 
 function endExam() {
+        console.log(answers);
         for(i=0;i<questions.length;i++){
             if(answers[i]!=undefined){
-                let is_correct = true;
+                let is_correct = (answers[i].length>0)&&questions[i].answers.length==answers[i].length;
                 answers[i].forEach((e)=>{if(questions[i].answers.indexOf(e)==-1)is_correct=false;});
                 if(is_correct)
                     correctAnswers++;
@@ -230,7 +262,6 @@ function endExam() {
         document.getElementById("result-body").innerHTML = 'Name: ' + userName + '<br>' + 'Elapsed Time:' + elapsedTime + '<br>' + correctAnswers + '/' + questions.length + ' Are Correct'; 
         examUi.classList.remove('flex');
         examUi.classList.add('hidden');
-        examHeader.classList.add('hidden');
         resultUi.classList.remove("hidden");
         resultUi.classList.add("flex");
         clearInterval(timer);
@@ -243,8 +274,17 @@ function loadQuestionNav() {
         currentQuestionNav.classList.add('rounded','border-2', 'flex', 'justify-center', 'm-2', 'cursor-pointer');
         currentQuestionNav.addEventListener("click", ()=>{gotoQuestion(i);});
         if(answers[i-1]!=undefined){
-            currentQuestionNav.classList.add('bg-green-400');
-            currentQuestionNav.classList.add('text-white');
+            if(answers[i-1].length!=0){
+                currentQuestionNav.classList.add('bg-green-400');
+                currentQuestionNav.classList.add('text-white');
+            }
+            else{
+                currentQuestionNav.classList.remove('bg-green-400');
+                currentQuestionNav.classList.remove('text-white');
+                currentQuestionNav.classList.add('bg-gray-200');
+                currentQuestionNav.classList.add('text-black');
+            }
+            
         }
         else {
             currentQuestionNav.classList.add('bg-gray-200');
