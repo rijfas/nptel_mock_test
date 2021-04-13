@@ -10,7 +10,9 @@ const nextButton = document.querySelector("#next");
 const saveAndNextButton = document.querySelector("#save-next-button");
 const saveButton = document.querySelector("#save-button");
 const endButton = document.querySelector("#end-button");
+const endButtonMobile = document.querySelector("#end-button-mobile");
 const retryButton = document.querySelector("#retry");
+const elem = document.documentElement;
 
 var correctAnswers = 0;
 var examType = 1;
@@ -41,14 +43,16 @@ confirmButton.addEventListener("click", () => {
         intro.classList.add('hidden');
         examUi.classList.remove('hidden');
         document.getElementById("user-display").innerHTML = userName;
+        document.getElementById("user-display-mobile").innerHTML = userName;
         examUi.classList.add('grid');
         loadExam(loadQuestions, examType-1);
         startTimer();
+        document.getElementById('exam-info-mobile').classList.remove('hidden');
     }
     else{
         document.getElementById("course-error").classList.remove("hidden");
     }
-    
+    openFullscreen();
 });
 
 retryButton.addEventListener("click", () => {
@@ -77,6 +81,10 @@ endButton.addEventListener("click", () => {
     endExam();
 });
 
+endButtonMobile.addEventListener("click", () => {
+    endExam();
+});
+
 
 function loadExam(callback, week) {   
     var xobj = new XMLHttpRequest();
@@ -91,11 +99,14 @@ function loadExam(callback, week) {
  }
 
  function loadQuestions(data){
+     document.getElementById('loader').classList.remove('flex');
+     document.getElementById('loader').classList.add('hidden');
     questions = JSON.parse(data);
     answers = Array(questions.length);
     loadQuestionNav();
     correctAnswers = 0;
     document.getElementById("question-count-display").innerHTML = answeredQuestions + "/" + questions.length;
+    document.getElementById("question-count-display-mobile").innerHTML = answeredQuestions + "/" + questions.length;
     loadQuestion();
  }
 
@@ -118,30 +129,20 @@ function loadExam(callback, week) {
             if(answers[currentQuestionIndex].indexOf(element.textContent)!=-1)
                 {
                     element.classList.remove('bg-gray-200', 'hover:bg-gray-300');
-                    element.classList.add('bg-gray-500', 'hover:bg-gray-600');
-                    element.classList.add("text-white");
-                    element.classList.add("qn-selected");
+                    element.classList.add('bg-gray-500', 'hover:bg-gray-600', 'text-white', 'qn-selected');
 
                 }
         }
         element.addEventListener("click", () => {
             if(element.classList.contains('qn-selected')){
-                element.classList.remove("bg-gray-500");
-                element.classList.add("bg-gray-200");
-                element.classList.remove("hover:bg-gray-600");
-                element.classList.add("hover:bg-gray-300");
-                element.classList.remove("text-white");
-                element.classList.remove("qn-selected");
+                element.classList.remove('bg-gray-500', 'hover:bg-gray-600', 'text-white', 'qn-selected');
+                element.classList.add('bg-gray-200', 'hover:bg-gray-300');
                 removeAnswer(element, questions[currentQuestionIndex].type == "SINGLE");
             }
             else{
                 selectAnswer(element, questions[currentQuestionIndex].type == "SINGLE");
-                element.classList.remove("bg-gray-200");
-                element.classList.add("bg-gray-500");
-                element.classList.add("text-white");
-                element.classList.remove("hover:bg-gray-300");
-                element.classList.add("hover:bg-gray-600");
-                element.classList.add("qn-selected");
+                element.classList.remove('bg-gray-200', 'hover:bg-gray-300');
+                element.classList.add('bg-gray-500', 'qn-selected', 'hover:bg-gray-600', 'text-white');
             }
             
         });
@@ -166,12 +167,8 @@ function loadExam(callback, week) {
     if(is_single) {
         selectedAnswers = [];
         document.querySelectorAll('.qn-option').forEach((element => {
-            element.classList.remove("bg-gray-500");
-            element.classList.add("bg-gray-200");
-            element.classList.remove("hover:bg-gray-600");
-            element.classList.add("hover:bg-gray-300");
-            element.classList.remove("text-white");
-            element.classList.remove("qn-selected");
+            element.classList.remove("bg-gray-500", "hover:bg-gray-600", "text-white", "qn-selected");
+            element.classList.add("bg-gray-200", "hover:bg-gray-300");
         }));
 
     }
@@ -186,12 +183,8 @@ function loadExam(callback, week) {
         selectedAnswers = [];
         answers[currentQuestionIndex] = [];
         document.querySelectorAll('.qn-option').forEach((element => {
-            element.classList.remove("bg-gray-500");
-            element.classList.add("bg-gray-200");
-            element.classList.remove("hover:bg-gray-600");
-            element.classList.add("hover:bg-gray-300");
-            element.classList.remove("text-white");
-            element.classList.remove("qn-selected");
+            element.classList.remove("bg-gray-500", "hover:bg-gray-600", "text-white", "qn-selected");
+            element.classList.add("bg-gray-200", "hover:bg-gray-300");
         }));
     }
         
@@ -207,6 +200,7 @@ function saveAndNext() {
     answeredQuestions = 0;
     answers.forEach((element)=>{if(element.length>0)answeredQuestions++;});
     document.getElementById("question-count-display").innerHTML = answeredQuestions + "/" + questions.length;
+    document.getElementById("question-count-display-mobile").innerHTML = answeredQuestions + "/" + questions.length;
     if(answeredQuestions == questions.length) {
         endButton.classList.remove('bg-red-400', 'hover:bg-red-500');
         endButton.classList.add('bg-green-400', 'hover:bg-green-500');
@@ -223,6 +217,7 @@ function saveAnswer() {
     answeredQuestions = 0;
     answers.forEach((element)=>{if(element.length>0)answeredQuestions++;});
     document.getElementById("question-count-display").innerHTML = answeredQuestions + "/" + questions.length;
+    document.getElementById("question-count-display-mobile").innerHTML = answeredQuestions + "/" + questions.length;
     if(answeredQuestions == questions.length) {
         endButton.classList.remove('bg-red-400', 'hover:bg-red-500');
         endButton.classList.add('bg-green-400', 'hover:bg-green-500');
@@ -245,12 +240,12 @@ function startTimer() {
     elapsedTime = ((hours<10)?'0'+hours:hours) + ":"
     + ((minutes<10)?'0'+minutes:minutes) + ":" + ((seconds<10)?'0'+seconds:seconds);
     document.getElementById("time-view").innerHTML =  elapsedTime;
+    document.getElementById("time-view-mobile").innerHTML =  elapsedTime;
 
     }, 1000);
 }
 
 function endExam() {
-        console.log(answers);
         for(i=0;i<questions.length;i++){
             if(answers[i]!=undefined){
                 let is_correct = (answers[i].length>0)&&questions[i].answers.length==answers[i].length;
@@ -262,9 +257,11 @@ function endExam() {
         document.getElementById("result-body").innerHTML = 'Name: ' + userName + '<br>' + 'Elapsed Time:' + elapsedTime + '<br>' + correctAnswers + '/' + questions.length + ' Are Correct'; 
         examUi.classList.remove('flex');
         examUi.classList.add('hidden');
+        document.getElementById('exam-info-mobile').classList.add('hidden');
         resultUi.classList.remove("hidden");
-        resultUi.classList.add("flex");
+        resultUi.classList.add("grid");
         clearInterval(timer);
+        closeFullscreen();
 }
 
 function loadQuestionNav() {
@@ -275,14 +272,12 @@ function loadQuestionNav() {
         currentQuestionNav.addEventListener("click", ()=>{gotoQuestion(i);});
         if(answers[i-1]!=undefined){
             if(answers[i-1].length!=0){
-                currentQuestionNav.classList.add('bg-green-400');
-                currentQuestionNav.classList.add('text-white');
+                currentQuestionNav.classList.remove('border-gray-200')
+                currentQuestionNav.classList.add('bg-green-400', 'text-white', 'border-green-400');
             }
             else{
-                currentQuestionNav.classList.remove('bg-green-400');
-                currentQuestionNav.classList.remove('text-white');
-                currentQuestionNav.classList.add('bg-gray-200');
-                currentQuestionNav.classList.add('text-black');
+                currentQuestionNav.classList.remove('bg-green-400', 'text-white', 'border-green-400');
+                currentQuestionNav.classList.add('bg-gray-200', 'text-black', 'border-gray-200');
             }
             
         }
@@ -301,5 +296,25 @@ function gotoQuestion(index) {
     loadQuestion();
     loadQuestionNav();
 }
+
+function openFullscreen() {
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.webkitRequestFullscreen) {
+      elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) {
+      elem.msRequestFullscreen();
+    }
+  }
+
+  function closeFullscreen() {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    }
+  }
 
  

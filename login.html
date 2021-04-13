@@ -50,6 +50,27 @@
             </div>
           </section>
     </div>
+    <header id="exam-info-mobile" class="hidden md:hidden text-gray-600 body-font border-b-2 border-gray-300 mt-4">
+      <div class="flex justify-center">
+        <span class="mr-3 text-xl">User : </span>
+        <span id="user-display-mobile" class="ml-3 text-xl">user</span>
+      </div>
+      <div class="flex justify-center">
+        <span class="mr-3 text-xl">Answered : </span>
+        <span id="question-count-display-mobile" class="ml-3 text-xl"> </span>
+      </div>
+      <div class="flex justify-center">
+        <span class="mr-3 text-xl">Elapsed Time :</span>
+        <span id="time-view-mobile" class="ml-3 text-xl">00:00:00</span>
+      </div>
+      <div class="mb-5 flex justify-center">
+        <button id="end-button-mobile" class="inline-flex items-center text-white bg-red-400 border-0 py-1 px-3 focus:outline-none hover:bg-red-500 rounded text-base mt-4 md:mt-0">End Exam
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>      
+    </header>
     <div id="intro" class="hidden">
         <div class="flex justify-center items-center">
           <div class="h-screen w-full flex flex-col justify-center items-center m-auto">
@@ -107,8 +128,11 @@
                   <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                 </span>
               </div>
-              
-              <p id="question-text" class="text-gray-500 text-base"><img src="img/loading.gif" alt="loading" class="w-5 h-5"></p>
+                <p id="question-text" class="text-gray-500 text-base">
+                  <div class="flex justify-center mt-5" id="loader">
+                    <img src="img/loading.gif" alt="loading" class="w-5 h-5">
+                  </div>
+                </p>
             </div>
             <div id="options">
             </div>
@@ -122,7 +146,7 @@
           </div>
         </div>
       </div>
-      <div class="col-span-1 h-screen w-full flex flex-col justify-center items-center m-auto ">
+      <div class="col-span-1 h-screen w-full hidden md:flex flex-col justify-center items-center m-auto ">
         <div class='max-w-lg bg-white shadow-xl rounded-lg overflow-hidden mx-auto'>
           <div class="py-4 px-8 mt-3">
             <div class="flex flex-col mb-8">
@@ -169,8 +193,8 @@
       </div>
     </div>
     <div id="result-ui" class="justify-center items-center hidden">
-      <div class="h-screen w-full flex flex-col justify-center items-center m-auto">
-        <div class='max-w-lg bg-white shadow-xl rounded-lg overflow-hidden mx-auto'>
+      <div class="h-screen w-full flex justify-center items-center m-auto">
+        <div class='bg-white shadow-lg rounded-lg overflow-hidden mx-auto'>
           <div class="py-4 px-8 mt-3">
             <div class="flex flex-col mb-8">
               <div class="flex justify-center">
@@ -181,14 +205,13 @@
               </div>
               <p id="result-body" class="text-gray-500 text-base flex justify-center"></p>
             </div>
-            <div class="py-4 flex justify-around gap-2">
+            <div class="py-4 grid grid-cols-1 md:grid-cols-2 justify-around gap-2">
               <a href="index.html" class="block tracking-widest uppercase text-center shadow bg-blue-500 hover:bg-blue-600 focus:shadow-outline focus:outline-none text-white text-sm font-bold py-3 px-10 rounded">Home</a>
               <button id="retry" class="block tracking-widest uppercase text-center shadow bg-blue-500 hover:bg-blue-600 focus:shadow-outline focus:outline-none text-white text-sm font-bold py-3 px-10 rounded">Retry</button>
             </div>
           </div>
         </div>
       </div>
-      
     </div>
     <script src="js/main.js"></script>
 </body>
