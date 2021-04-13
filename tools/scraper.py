@@ -1,3 +1,8 @@
+'''
+    Author: Rijfas
+    Date: 11/04/2021
+    written in 30 mins, so don't expect standards(^-')
+'''
 from bs4 import BeautifulSoup
 from json import dumps
 from time import sleep
