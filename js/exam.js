@@ -1,3 +1,8 @@
+/*
+    Author:Rijfas
+    Date: 13/04/21
+    PS: Code is kinda crap, but it atleast works(maybe?)
+*/
 const main = document.querySelector("#main");
 const intro = document.querySelector("#intro");
 const examUi = document.querySelector("#exam-ui");
@@ -57,6 +62,8 @@ confirmButton.addEventListener("click", () => {
 
 retryButton.addEventListener("click", () => {
     currentQuestionIndex = 0;
+    resultUi.classList.remove('grid');
+    resultUi.classList.add('hidden');
     examUi.classList.add('hidden');
     intro.classList.remove('hidden');
 });
