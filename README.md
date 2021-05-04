@@ -8,5 +8,6 @@ Intellectual Property is the currently available course for mock test.
 1. HTML
 2. CSS
 3. JavaScript
+4. Python (webscraping)
 
 [Open mock test page](https://rijfas.github.io/nptel_mock_test)
