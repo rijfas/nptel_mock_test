@@ -1,6 +1,6 @@
 # NPTEL Mock Test
 ----
-(https://clipart.info/images/ccovers/1499794873github-logo-png.png)[github logo]
+(github logo)[https://clipart.info/images/ccovers/1499794873github-logo-png.png]
 Mock test using assignment questions for NPTEL exam preparation. 
 Intellectual Property is the currently available course for mock test.
 
