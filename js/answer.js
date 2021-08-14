@@ -58,7 +58,7 @@ function loadQuestion() {
     const options = document.querySelector("#options");
     options.innerHTML = "";
     document.querySelector("#question-text").innerHTML = currentQuestion.text;
-    document.querySelector("#question-header").innerHTML = "Question "+(currentQuestionIndex+1)+"/10";
+    document.querySelector("#question-header").innerHTML = "Question "+(currentQuestionIndex+1)+"/"+questions.length;
     currentQuestion.options.forEach(element => {
         const currentOption = document.createElement("span");
         currentOption.textContent = element;

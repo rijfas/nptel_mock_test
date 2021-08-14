@@ -124,7 +124,7 @@ function loadExam(callback, week) {
     options.innerHTML = "";
     document.querySelector("#question-text").innerHTML = currentQuestion.text;
     document.querySelector("#type").innerHTML =  '<span class="font-bold text-gray-400 mt-10">' + ((currentQuestion.type == 'SINGLE') ? "Select only one answer.":"Multiple answers can be selected.") + "</span>";
-    document.querySelector("#question-header").innerHTML = "Question "+(currentQuestionIndex+1)+"/10";
+    document.querySelector("#question-header").innerHTML = "Question "+(currentQuestionIndex+1)+"/"+questions.length;
     currentQuestion.options.forEach(element => {
         const currentOption = document.createElement("span");
         currentOption.textContent = element;
